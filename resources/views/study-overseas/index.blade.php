@@ -1,68 +1,48 @@
-@extends('layouts.app')
+@extends('layouts.overseas')
 
 @section('title')
-    Home
+    Study Overseas
 @endsection
 
 @section('content')
-    <section id="about" class="light">
-		<div id="scene">
-			<div class="layer" data-depth="0.50"><div class="about_background"></div></div>
-		</div>
+	<section id="locations" class="locations">
 		<div class="container">
-			<div class="row feature_cards">
-				<div class="col-md-4 col-xs-6 feature_card">
-					<div class="feature_card_content trans_200">
-						<img src="img/service/item-01.png" class="icedu-icons">
-						<h3 class="service-text">Consultation</h3>
+			<div class="row">
+				<div class="col-md-3 col-md-offset-9">
+					<div class="section_title">
+						<h3>study overseas</h3>
 					</div>
 				</div>
-				<div class="col-md-4 col-xs-6 feature_card">
-					<div class="feature_card_content trans_200">
-						<img src="img/service/item-02.png" class="icedu-icons">
-						<h3 class="service-text">Study Overseas</h3>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 feature_card">
-					<div class="feature_card_content trans_200">
-						<img src="img/service/item-03.png" class="icedu-icons">
-						<h3 class="service-text">English Course</h3>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 feature_card">
-					<div class="feature_card_content trans_200">
-						<img src="img/service/item-04.png" class="icedu-icons">
-						<h3 class="service-text">International English Course</h3>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 feature_card">
-					<div class="feature_card_content trans_200">
-						<img src="img/service/item-05.png" class="icedu-icons">
-						<h3 class="service-text">Pick A School</h3>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 feature_card">
-					<div class="feature_card_content trans_200">
-						<img src="img/service/item-06.png" class="icedu-icons">
-						<h3 class="service-text">Visa Processing</h3>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 feature_card">
-					<div class="feature_card_content trans_200">
-						<img src="img/service/item-07.png" class="icedu-icons">
-						<h3 class="service-text">Document Translation</h3>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 feature_card">
-					<div class="feature_card_content trans_200">
-						<img src="img/service/item-08.png" class="icedu-icons">
-						<h3 class="service-text">Accomodation Placement</h3>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 feature_card">
-					<div class="feature_card_content trans_200">
-						<img src="img/service/item-09.png" class="icedu-icons">
-						<h3 class="service-text">Pick Up Arrangement</h3>
+			</div>
+			<div class="map-row">
+				<div class="google-map">
+					<img src="img/map.png" alt="">
+					<div class="hotspot-wrap">
+						<div class="hotspot-item" data-top="37%" data-left="25%">
+							<span class="hotspot" data-toggle="tooltip" data-placement="top" title="USA">
+								<i class="hotspot-point"></i>                            
+							</span>
+						</div>
+						<div class="hotspot-item" data-top="29%" data-left="53%">
+							<span class="hotspot" data-toggle="tooltip" data-placement="top" title="GERMANY">
+								<span class="hotspot-point"></span>                            
+							</span>
+						</div>
+						<div class="hotspot-item" data-top="35%" data-left="80%">
+							<span class="hotspot" data-toggle="tooltip" data-placement="top" title="HONG KONG">
+								<span class="hotspot-point"></span>                            
+							</span>
+						</div>
+						<div class="hotspot-item" data-top="76%" data-left="85%">
+							<span class="hotspot" data-toggle="tooltip" data-placement="top" title="SYDNEY">
+								<span class="hotspot-point"></span>                            
+							</span>
+						</div>
+						<div class="hotspot-item" data-top="52%" data-left="68%">
+							<span class="hotspot" data-toggle="tooltip" data-placement="top" title="INDIA">
+								<span class="hotspot-point"></span>                            
+							</span>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -20,6 +20,37 @@
 
 ******************************/
 
+@media (max-width:480px)  {
+	#desktop-only
+	{
+		display:none;
+	}
+	#mobile-only
+	{
+		display: block;
+	}
+}
+@media (min-width:481px) and (max-width: 800px)  {
+	#desktop-only
+	{
+		display: block;
+	}
+	#mobile-only
+	{
+		display:none;
+	}
+}
+@media (min-width:801px) {
+	#desktop-only
+	{
+		display: block;
+	}
+	#mobile-only
+	{
+		display:none;
+	}
+}
+
 /************
 1. 1600px
 ************/
@@ -29,12 +60,12 @@
 	.slider_overlay
 	{
 		top: 50%;
-		left: 75%;
+		left: 95%;
 	}
 	.home_content
 	{
 		top: 50%;
-		left: 80px;
+		left: 45%;
 		width: 50%;
 	}
 	.main_slider_nav

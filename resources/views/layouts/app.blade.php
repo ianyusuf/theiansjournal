@@ -118,7 +118,7 @@
 				</ul>
 			</div>
 		</div>
-	</div>-->
+	</div>
 
 	<div id="footer">
 		<div class="container">
@@ -131,8 +131,18 @@
 				</div>
 			</div>
 		</div>	
-	</div>
+	</div>-->
 
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p class="footer_text_center">&copy; 2017 PT. Inti Cemerland Edukasi</p>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
 	<div class="fs_menu_overlay">
 		<div id="scene">
 			<div class="layer" data-depth="0.50"><div class="about_background"></div></div>

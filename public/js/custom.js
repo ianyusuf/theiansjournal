@@ -78,7 +78,7 @@ jQuery(document).ready(function($)
 			wrapperid: 'myparallaxslider', //ID of DIV on page to house slider
 			displaymode: {type:'auto', pause:3000, cycles:2, stoponclick:false, pauseonmouseover:false},
 			delaybtwdesc:  500, // delay in milliseconds between the revealing of each description layer inside a slide
-			navbuttons: ['images/left.png', 'images/right.png', 'up.png', 'down.png'], // path to nav images
+			navbuttons: ['img/left.png', 'img/right.png', 'up.png', 'down.png'], // path to nav images
 			activeslideclass: 'selectedslide', // CSS class that gets added to currently shown DIV slide
 			orientation: 'h', //Valid values: "h" or "v"
 			persist: false, //remember last viewed slide and recall within same session?
