@@ -115,44 +115,6 @@ jQuery(document).ready(function($)
 		});
 	}
 
-	function initParallax()
-	{
-		/* Adding parallax effect to the slider container */
-		var homeBcg = $('.slider_container');
-
-		var homeBcgScene = new ScrollMagic.Scene({
-	        triggerElement: homeBcg,
-	        triggerHook: 1,
-	        duration: "100%"
-	    })
-	    .setTween(TweenMax.to(homeBcg, 1, {y: '40%', ease:Power0.easeNone}))
-	    .addTo(ctrl);
-
-	    var scene = document.getElementById('scene');
-		var parallax = new Parallax(scene, {
-		  relativeInput: true,
-		  clipRelativeInput: false,
-		  hoverOnly: true,
-		  calibrateX: false,
-		  calibrateY: true,
-		  invertX: false,
-		  invertY: true,
-		  limitX: false,
-		  limitY: false,
-		  scalarX: 5,
-		  scalarY: 8,
-		  frictionX: 0.2,
-		  frictionY: 0.8,
-		  originX: 0.0,
-		  originY: 0.0,
-		  precision: 1,
-		  pointerEvents: false,
-		  onReady: function() { alert('ready!'); }
-		});
-
-		$('.contact_background').parallax({imageSrc: 'images/swift_background_2.jpg'});
-	}
-
 	function initHero()
 	{
 		var heroOverlay = $('.slider_overlay');

@@ -33,11 +33,11 @@
 @media (min-width:481px) and (max-width: 800px)  {
 	#desktop-only
 	{
-		display: block;
+		display:none;
 	}
 	#mobile-only
 	{
-		display:none;
+		display: block;
 	}
 }
 @media (min-width:801px) {
@@ -57,16 +57,17 @@
 
 @media only screen and (max-width: 1600px)
 {
-	.slider_overlay
-	{
-		top: 50%;
-		left: 95%;
-	}
 	.home_content
 	{
 		top: 50%;
 		left: 45%;
 		width: 50%;
+	}
+	.home_content h1
+	{
+		line-height: 1.2;
+		margin-top: -15px;
+		font-size: 2em;
 	}
 	.main_slider_nav
 	{
@@ -105,16 +106,6 @@
 
 @media only screen and (max-width: 1280px)
 {
-	.home_content
-	{
-		width: 55%;
-	}
-	.home_content h1
-	{
-		line-height: 1.2;
-		margin-top: -15px;
-		font-size: 48px;
-	}
 	.gallery_nav_container_inner .button_nav
 	{
 		top: 30px;
@@ -195,51 +186,16 @@
 
 @media only screen and (max-width: 1200px)
 {
-	.slider_overlay
-	{
-		display: none;
-	}
 	.home_content
 	{
-		width: 75%;
+		top: 40%;
+		left: 45%;
 	}
-	.main_slider_nav
+	.home_content h1
 	{
-		top: 50%;
-		left: auto;
-		right: 60px;
-		background: rgba(255, 255, 255, 0.2);
-		border: solid 2px rgba(0, 0, 0, 0.1);
-		-ms-transform: translateY(-50%) rotate(135deg);
-	    -webkit-transform: translateY(-50%) rotate(135deg);
-	    -moz-transform: translateY(-50%) rotate(135deg);
-	    -o-transform: translateY(-50%) rotate(135deg);
-	    transform: translateY(-50%) rotate(135deg);
-	    transform-origin: center;
-	}
-	#home::after
-	{
-		display: block;
-	}
-	.video_background_inner a
-	{
-		top: 50%;
-		right: auto;
-		left: 50%;
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-	}
-	.video_background
-	{
-		width: calc(50% - 30px);
-		height: 100%;
-	}
-	.video_section_container
-	{
-		padding-left: 110px;
+		line-height: 1.2;
+		margin-top: -15px;
+		font-size: 1.5em;
 	}
 	.gallery_nav_container
 	{
@@ -253,10 +209,6 @@
 	.gallery_thumbnails_container
 	{
 		right: -80px;
-	}
-	.nivo-caption
-	{
-		visibility: hidden;
 	}
 	.pricing_item .button_line a
 	{
@@ -554,7 +506,7 @@
 	}
 }
 
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 768px)
 {
 	p{font-size: 14px;}
 	h1{font-size: 36px;}
@@ -566,11 +518,6 @@
 	.fs_menu_left.active
 	{
 		width: 140px;
-	}
-	.home_content
-	{
-		left: 30px;
-		width: 90%;
 	}
 	.logo_container
 	{

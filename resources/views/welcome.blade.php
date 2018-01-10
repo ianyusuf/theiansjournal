@@ -5,7 +5,22 @@
 @endsection
 
 @section('content')
-    <section id="home">
+    <section class="home" id="desktop-only">
+        <div class="home_background">
+            <img src="img/header.jpg" class="img-responsive"></div>
+        </div>
+        <div class="home_content">
+            <h1>We Prepare & Guide International Students For Study Abroad</h1>
+            <a class="button_a about_link_button scroll_to_button trans_200" href="{{ url('service') }}">Learn More</a>
+        </div>
+    </section>
+
+    <section class="home" id="mobile-only">
+    </section>
+
+    <div class="home-separator"></div>
+
+    <section class="home-slider">
         <div class="slider_container">
             <div id="myparallaxslider" class="parallaxslider">
                 <div class="slide">
@@ -25,20 +40,5 @@
                 </div>
             </div>
         </div>
-        <div class="slider_overlay" id="asd">
-            <div class="slider_overlay_inner">
-            </div>
-        </div>
-        <div class="home_content">
-            <h1>We Prepare & Guide International Students For Study Abroad</h1>
-            <a class="button_a about_link_button scroll_to_button trans_200" href="{{ url('service') }}">Learn More</a>
-        </div>
-        <!--<div class="home_social">
-            <ul>
-                <li class="hvr" data-color-enter="#717a85" data-color-leave="#717a85"><a href="#">Facebook</a></li>
-                <li class="hvr" data-color-enter="#717a85" data-color-leave="#717a85"><a href="#">Instagram</a></li>
-                <li class="hvr" data-color-enter="#717a85" data-color-leave="#717a85"><a href="#">Twitter</a></li>
-            </ul>
-        </div>-->
     </section>
 @endsection
