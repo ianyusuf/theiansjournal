@@ -71,16 +71,9 @@
 	}
 	.main_slider_nav
 	{
-		top: 50%;
-		left: calc(75% - 135px);
+		top: 95%;
+		left: 48%;
 		background: transparent;
-		border: solid 2px rgba(0, 0, 0, 0.1);
-		-ms-transform: translateY(-50%) rotate(135deg);
-	    -webkit-transform: translateY(-50%) rotate(135deg);
-	    -moz-transform: translateY(-50%) rotate(135deg);
-	    -o-transform: translateY(-50%) rotate(135deg);
-	    transform: translateY(-50%) rotate(135deg);
-	    transform-origin: center;
 	}
 	.nivo-caption 
 	{
@@ -181,6 +174,23 @@
 	::input-placeholder
 	{
 		font-size: 16px;
+	}
+	.home_nav ul li a
+	{
+		position: relative;
+		color: #ea4829;
+		text-transform: uppercase;
+		font-size: 0.7em;
+		font-weight: 700;
+		letter-spacing: 1px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+	}
+	.link-braces a
+	{
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 

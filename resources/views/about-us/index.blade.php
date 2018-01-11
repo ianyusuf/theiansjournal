@@ -18,10 +18,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-9">
 					<div class="about_section_title">
-						<h3>What We Do</h3>
-						<h1>We Prepare & Guide International Students For Study Abroad</h1>
+						<h4>What We Do</h4>
+						<h3>We Prepare & Guide International Students Through The Admission Application & Visa Process For Study Abroad</h3>
 					</div>
 				</div>
 			</div>

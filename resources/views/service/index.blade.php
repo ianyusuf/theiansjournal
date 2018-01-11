@@ -34,17 +34,14 @@
 											<img src="img/service/item-01.png" class="img-responsive">
 										</div>
 										<div class="col-xs-6">
-											<h1>Consultation</h1>
+											<h1 class="service_modal_header">Consultation</h1>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xs-12">
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="col-xs-12 service_modal_text">
+											<p>Study overseas is everybody dreams, we help student to reach their dream by preparing early with many option countries destination: <b>Australia, Canada, China, New Zealand, Switzerland, United Kingdom, United States of America</b> and many more.</p>
 										</div>
 									</div>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
@@ -68,18 +65,27 @@
 										<div class="col-xs-4">
 											<img src="img/service/item-02.png" class="img-responsive">
 										</div>
-										<div class="col-xs-6">
-											<h1>Study Overseas</h1>
+										<div class="col-xs-7">
+											<h1 class="service_modal_header">Study Overseas</h1>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xs-12">
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="col-xs-12 service_modal_text">
+											<p>Study overseas is everybody dreams, we help student to reach their dream by preparing early with many option countries destination: <b>Australia, Canada, China, New Zealand, Switzerland, United Kingdom, United States of America</b> and many more.</p>
+											<p>
+											<b><span style="font-weight:600; color: #fd431a">Benefit study overseas:</span></b>
+												<ul style="list-style-type: square; padding:0 20px; line-height:200%">
+													<li>Experience a new culture</li>
+													<li>Make a friends from around the world</li>
+													<li>Become independent</li>
+													<li>Change the way of think</li>
+													<li>Get ready for international work place</li>
+													<li>Develop language skill</li>
+													<li>Travel more widely</li>
+												</ul>
+											</p>
 										</div>
 									</div>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
@@ -103,18 +109,15 @@
 										<div class="col-xs-4">
 											<img src="img/service/item-03.png" class="img-responsive">
 										</div>
-										<div class="col-xs-6">
-											<h1>English Course</h1>
+										<div class="col-xs-7">
+											<h1 class="service_modal_header">English Course</h1>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xs-12">
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="col-xs-12 service_modal_text">
+											<p>Study overseas is everybody dreams, we help student to reach their dream by preparing early with many option countries destination: <b>Australia, Canada, China, New Zealand, Switzerland, United Kingdom, United States of America</b> and many more.</p>
 										</div>
 									</div>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
@@ -140,18 +143,15 @@
 										<div class="col-xs-4">
 											<img src="img/service/item-04.png" class="img-responsive">
 										</div>
-										<div class="col-xs-6">
-											<h1>International English Course</h1>
+										<div class="col-xs-7" style="margin-top:-10px">
+											<h1 class="service_modal_header" style="font-size:1.5em">International English Course</h1>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xs-12">
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="col-xs-12 service_modal_text">
+											<p>Study overseas is everybody dreams, we help student to reach their dream by preparing early with many option countries destination: <b>Australia, Canada, China, New Zealand, Switzerland, United Kingdom, United States of America</b> and many more.</p>
 										</div>
 									</div>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
@@ -172,21 +172,18 @@
 								</div>
 								<div class="modal-body">
 									<div class="row">
-										<div class="col-xs-4">
+										<div class="col-xs-4 col-xs-offset-1">
 											<img src="img/service/item-05.png" class="img-responsive">
 										</div>
 										<div class="col-xs-6">
-											<h1>Pick A School</h1>
+											<h1 class="service_modal_header">Pick A School</h1>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xs-12">
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="col-xs-12 service_modal_text">
+											<p>Study overseas is everybody dreams, we help student to reach their dream by preparing early with many option countries destination: <b>Australia, Canada, China, New Zealand, Switzerland, United Kingdom, United States of America</b> and many more.</p>
 										</div>
 									</div>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
@@ -210,18 +207,15 @@
 										<div class="col-xs-4">
 											<img src="img/service/item-06.png" class="img-responsive">
 										</div>
-										<div class="col-xs-6">
-											<h1>Visa Processing</h1>
+										<div class="col-xs-7">
+											<h1 class="service_modal_header">Visa Processing</h1>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xs-12">
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="col-xs-12 service_modal_text">
+											<p>Study overseas is everybody dreams, we help student to reach their dream by preparing early with many option countries destination: <b>Australia, Canada, China, New Zealand, Switzerland, United Kingdom, United States of America</b> and many more.</p>
 										</div>
 									</div>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
@@ -247,18 +241,15 @@
 										<div class="col-xs-4">
 											<img src="img/service/item-07.png" class="img-responsive">
 										</div>
-										<div class="col-xs-6">
-											<h1>Document Translation</h1>
+										<div class="col-xs-7" style="margin-top:-10px">
+											<h1 class="service_modal_header">Document Translation</h1>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xs-12">
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="col-xs-12 service_modal_text">
+											<p>Study overseas is everybody dreams, we help student to reach their dream by preparing early with many option countries destination: <b>Australia, Canada, China, New Zealand, Switzerland, United Kingdom, United States of America</b> and many more.</p>
 										</div>
 									</div>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
@@ -282,18 +273,15 @@
 										<div class="col-xs-4">
 											<img src="img/service/item-08.png" class="img-responsive">
 										</div>
-										<div class="col-xs-6">
-											<h1>Accomodation Placement</h1>
+										<div class="col-xs-7" style="margin-top:-10px">
+											<h1 class="service_modal_header">Accomodation Placement</h1>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xs-12">
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="col-xs-12 service_modal_text">
+											<p>Study overseas is everybody dreams, we help student to reach their dream by preparing early with many option countries destination: <b>Australia, Canada, China, New Zealand, Switzerland, United Kingdom, United States of America</b> and many more.</p>
 										</div>
 									</div>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
@@ -317,18 +305,15 @@
 										<div class="col-xs-4">
 											<img src="img/service/item-09.png" class="img-responsive">
 										</div>
-										<div class="col-xs-6">
-											<h1>Pick Up Arrangement</h1>
+										<div class="col-xs-7">
+											<h1 class="service_modal_header">Pick Up Arrangement</h1>
 										</div>
 									</div>
 									<div class="row">
-										<div class="col-xs-12">
-											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+										<div class="col-xs-12 service_modal_text">
+											<p>Study overseas is everybody dreams, we help student to reach their dream by preparing early with many option countries destination: <b>Australia, Canada, China, New Zealand, Switzerland, United Kingdom, United States of America</b> and many more.</p>
 										</div>
 									</div>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
