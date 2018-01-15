@@ -69,7 +69,6 @@ p a::after
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: #00bcd5;
 	opacity: 0.2;
 	content: '';
 }
@@ -1188,6 +1187,16 @@ section
 .about_text_row{
 	margin-top: 40px;
 }
+
+@media (max-width:500px){
+	.about_section_title {
+		text-align:center;
+	}
+	.about_section_title h3{
+		font-size: 1em;
+	}
+}
+
 /*********************************
 6. Services
 *********************************/
@@ -1357,7 +1366,12 @@ section
 	text-transform: uppercase;
 	text-align:center;
 }
-
+.service_modal_text{
+	padding-top: 20px;
+}
+.service_modal_text a{
+	color: #fd431a!important;
+}
 .service_modal_header_left{
 	margin-top: 35px;
 	font-size: 1.8em;
@@ -1367,6 +1381,7 @@ section
 	text-align:left;
 }
 .service_modal_text{
+	cursor: default;
 	padding: 20px 60px;
 	font-size: 1em;
 	text-align: justify;
@@ -2903,12 +2918,20 @@ Slider Content
 {
 	color: #fff;
 }
+.contact_socmed{
+	color: #0d0050;
+	margin-bottom: 20px;
+}
+.contact_socmed:hover{
+	color: #686092;
+}
 .contact_text_white p span
 {
 	margin-left: 10px;
 }
 #form_name,
-#form_email
+#form_email,
+#form_tel
 {
 	position: relative;
 	border: none;
@@ -2936,7 +2959,8 @@ input[type="email"], input[type="password"], input[type="text"]
     padding: 0 20px;
 }
 .name_focus,
-.email_focus
+.email_focus,
+.tel_focus
 {
 	position: absolute;
 	top: -10px;
@@ -3280,7 +3304,7 @@ input[type="email"], input[type="password"], input[type="text"]
 	width: 100%;
 	padding-top: 120px;
 	padding-bottom: 120px;
-	background: #fd4219;
+	background: #1e91d2;
 }
 
 .locations {
@@ -3313,9 +3337,9 @@ input[type="email"], input[type="password"], input[type="text"]
     width: 22px;
     height: 22px;
   	border-radius: 50% 50% 50% 0;
-    border: 5px solid #fff;
+    border: 5px solid #fd4219;
     display: block;
-    background: #fd4219;
+    background: #000;
     transform: rotate(-45deg);
 }
 

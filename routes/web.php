@@ -15,4 +15,5 @@ Route::get('/', 'WelcomeController@showContent');
 Route::get('about-us', 'AboutController@showContent');
 Route::get('service', 'ServiceController@showContent');
 Route::get('study-overseas', 'StudyController@showContent');
+Route::get('study-overseas/australia', 'StudyController@australia');
 Route::get('contact-us', 'ContactController@showContent');

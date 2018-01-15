@@ -1,7 +1,7 @@
 @extends('layouts.overseas')
 
 @section('title')
-    Study Overseas
+    Australia
 @endsection
 
 @section('content')
@@ -10,55 +10,22 @@
             <div class="ball"></div>
         </div>
     </div>
-	<section id="locations" class="locations">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 col-md-offset-9">
-					<div class="section_title">
-						<h3>study overseas</h3>
-					</div>
-				</div>
-			</div>
-			<div class="map-row">
-                <div class="google-map">
-                    <img src="img/map.png" alt="">
-                    <div class="hotspot-wrap">
-                        <div class="hotspot-item" data-top="15%" data-left="15%">
-                            <span class="hotspot" data-toggle="tooltip" data-placement="top" title="CANADA">
-                                <span class="hotspot-point"></span>                            
-                            </span>
-                        </div>
-                        <div class="hotspot-item" data-top="35%" data-left="20%">
-                            <span class="hotspot" data-toggle="tooltip" data-placement="top" title="USA">
-                                <span class="hotspot-point"></span>                            
-                            </span>
-                        </div>
-                        <div class="hotspot-item" data-top="28%" data-left="45%">
-                            <span class="hotspot" data-toggle="tooltip" data-placement="top" title="UK">
-                                <span class="hotspot-point"></span>                            
-                            </span>
-                        </div>
-                        <a href="#" class="nav_links" data-scroll-to="#switzerland">
-                            <div class="hotspot-item" data-top="30%" data-left="60%">
-                                <span class="hotspot" data-toggle="tooltip" data-placement="top" title="SWITZERLAND">
-                                    <span class="hotspot-point"></span>                            
-                                </span>
-                            </div>
-                        </a>
-                        <div class="hotspot-item" data-top="75%" data-left="85%">
-                            <a href="{{ url('study-overseas/australia') }}">
-                                <span class="hotspot" data-toggle="tooltip" data-placement="top" title="AUSTRALIA">
-                                    <span class="hotspot-point"></span>                            
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>  
-			</div>
-		</div>
-	</section>
     <section id="service">
         <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-md-offset-9">
+                    <div class="section_title">
+                        <h3>study overseas</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section_title">
+                        <h1 class="service_modal_header_left">< Australia</h1>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-6" id="australia">
                     <div class="row">

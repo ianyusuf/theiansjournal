@@ -31,13 +31,21 @@
 				<div class="contact_row">
 					<div class="contact_text_white">
 						<p><b>P. <span></b>+62 2145 6783</span><br>
-						<b>E. <span></b>info@icedu.id</span></p>
+						<b>E. <span></b>info@icedu.id</span>
 					</div>
 				</div>
 				<div class="contact_row">
 					<div class="contact_text_white">
-						<p><i class="fa fa-instagram" aria-hidden="true"></i> <span>@icedu.id</span><br>
-						<i class="fa fa-facebook" aria-hidden="true"></i> <span>/icedu.indonesia</span></p>
+						<p>
+							<a class="contact_socmed" href="https://www.instagram.com/iceduindo/" target="_blank">
+								<i class="fa fa-instagram" aria-hidden="true"></i><span>@iceduindo</span>
+							</a>
+						</p>
+						<p>
+							<a class="contact_socmed" href="https://www.instagram.com/iceduindo/" target="_blank">
+								<i class="fa fa-facebook" aria-hidden="true"></i><span>/icedu.indonesia</span>
+							</a>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -52,7 +60,7 @@
 								<div class="col-sm-8">
 									<div class="form-group">
 										<div class="name_focus">Name</div>
-										<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name" required="required" data-error="Name is required.">
+										<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name..." required="required" data-error="Name is required.">
 										<div class="help-block with-errors contact_errors"></div>
 									</div>
 								</div>
@@ -61,7 +69,16 @@
 								<div class="col-sm-8">
 									<div class="form-group">
 										<div class="email_focus">Email</div>
-										<input id="form_email" type="email" name="email" class="form-control" placeholder="Fill with your email" required="required" data-error="Valid email is required.">
+										<input id="form_email" type="email" name="email" class="form-control" placeholder="Fill with your email..." required="required" data-error="Valid email is required.">
+										<div class="help-block with-errors contact_errors"></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-8">
+									<div class="form-group">
+										<div class="tel_focus">Phone</div>
+										<input id="form_tel" type="text" name="tel" class="form-control" placeholder="Input your phone number..." required="required" data-error="Valid phone number is required.">
 										<div class="help-block with-errors contact_errors"></div>
 									</div>
 								</div>
