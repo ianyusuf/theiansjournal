@@ -30,7 +30,7 @@
 		display: block;
 	}
 }
-@media (min-width:481px) and (max-width: 800px)  {
+@media (min-width:481px) and (max-width: 767px)  {
 	#desktop-only
 	{
 		display:none;
@@ -40,7 +40,7 @@
 		display: block;
 	}
 }
-@media (min-width:801px) {
+@media (min-width:768px) {
 	#desktop-only
 	{
 		display: block;

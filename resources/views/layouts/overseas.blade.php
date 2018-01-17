@@ -27,7 +27,7 @@
 			<div class="header_content">
 				<div class="logo_container">
 					<a href="{{ url('/') }}">
-						<div class="logo"><img src="img/logo.png" class="img-responsive"></div>
+						<div class="logo"><img src="../img/logo.png" class="img-responsive"></div>
 					</a>
 				</div>
 				<div class="home_nav">
@@ -108,6 +108,17 @@
 <script type='text/javascript' src="{{ asset('plugins/overseas/bootstrap.min.js') }}"></script>
 <script type='text/javascript' src="{{ asset('plugins/overseas/plugins.js') }}"></script>
 <script type='text/javascript' src="{{ asset('plugins/overseas/functions.js') }}"></script>
+<script type='text/javascript' src="{{ asset('plugins/greensock/TweenMax.min.js') }}"></script>
+<script type='text/javascript' src="{{ asset('plugins/greensock/TimelineMax.min.js') }}"></script>
+<script type='text/javascript' src="{{ asset('plugins/scrollmagic/ScrollMagic.min.js') }}"></script>
+<script type='text/javascript' src="{{ asset('plugins/greensock/animation.gsap.min.js') }}"></script>
+<script type='text/javascript' src="{{ asset('plugins/greensock/ScrollToPlugin.min.js') }}"></script>
+<script type='text/javascript' src="{{ asset('plugins/charming/charming.min.js') }}"></script>
+<script type='text/javascript' src="{{ asset('plugins/parallax.js-1.4.2/parallax.js') }}"></script>
+<script type='text/javascript' src="{{ asset('plugins/parallax.js/parallax.min.js') }}"></script>
+<script type='text/javascript' src="{{ asset('plugins/easing/easing.js') }}"></script>
+<script type='text/javascript' src="{{ asset('plugins/masonry/masonry.pkgd.js') }}"></script>
+<script type='text/javascript' src="{{ asset('js/work_custom.js') }}"></script>
 
 </body>
 </html>

@@ -9,13 +9,20 @@
         <div class="home_background">
             <img src="img/header.jpg" class="img-responsive"></div>
         </div>
-        <div class="home_content">
+        <div class="home_content" id="desktop-only">
             <h1>We Prepare & Guide International Students For Study Abroad</h1>
             <a class="button_a about_link_button scroll_to_button trans_200" href="{{ url('service') }}">Learn More</a>
         </div>
     </section>
 
     <section class="home" id="mobile-only">
+        <div class="home_background">
+            <img src="img/header-m.jpg" class="img-responsive"></div>
+        </div>
+        <div class="home_content" id="mobile-only">
+            <h1>We Prepare & Guide International Students For Study Abroad</h1>
+            <a class="button_a about_link_button scroll_to_button trans_200" href="{{ url('service') }}">Learn More</a>
+        </div>
     </section>
 
     <div class="home-separator"></div>
@@ -28,31 +35,13 @@
                         <img src="img/slider/slider-1.jpg" class="img-responsive">
                     </div>
                 </div>
-
-                <div class="slide">
-                    <div class="bgoverlay slider_bg slider_bg_2" data-order="2">
-                        <img src="img/slider/slider-1.jpg" class="img-responsive">
-                    </div>
-                </div>
-
-                <div class="slide">
-                    <div class="bgoverlay slider_bg slider_bg_3" data-order="3">
-                        <img src="img/slider/slider-1.jpg" class="img-responsive">
-                    </div>
-                </div>
-
-                <div class="slide">
-                    <div class="bgoverlay slider_bg slider_bg_4" data-order="4">
-                        <img src="img/slider/slider-1.jpg" class="img-responsive">
-                    </div>
-                </div>
             </div>
         </div>
         <div class="main_slider_nav">
             <div class="main_slider_nav_inner">
                 <div class="main_nav_position">
                     <div id="asd" class="main_nav_position_inner trans_200">
-                        1 &nbsp;of &nbsp;4
+                        1 &nbsp;of &nbsp;1
                     </div>
                 </div>
                 <div class="main_nav_arrows">

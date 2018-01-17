@@ -1,4 +1,5 @@
 @extends('layouts.overseas')
+    <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
 
 @section('title')
     Australia
@@ -22,317 +23,74 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="section_title">
-                        <h1 class="service_modal_header_left">< Australia</h1>
+                        <h1 class="service_modal_header_left"></i>Australia</h1>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6" id="australia">
-                    <div class="row">
-                        <h1 class="service_modal_header_left">Australia</h1>
-                    </div>
-                    <div class="row">
-                        <ul class="university-list">
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Charles Sturt University</li>
+                <div class="col-md-12 work_container">
+                    <ul class="grid">
+                        <li class="grid-item">
+                            <a href="work_single.html">
+                                <span class="project_background" style="background-image: url(images/project_page_1.jpg)"></span>
+                                <h4>Project name here</h4>
                             </a>
-                            <div id="modal-1" class="modal fade" role="dialog">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <h4 class="uni_modal_top">Switzerland</h4>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <h2 class="uni_modal_header">Swiss Hotel Management School</h2>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <img src="img/university_1.jpg" class="img-responsive">
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1 service_website">
-                                                    <a href="https://www.shms.com" target="_blank">www.shms.com</a>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-12 service_modal_text">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Taylors High School</li>
+                        </li>
+                        <li class="grid-item">
+                            <a href="work_single.html">
+                                <span class="project_background" style="background-image: url(images/project_page_2.jpg)"></span>
+                                <h4>Project name here</h4>
                             </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Flinders University</li>
+                        </li>
+                        <li class="grid-item">
+                            <a href="work_single.html">
+                                <span class="project_background" style="background-image: url(images/project_page_3.jpg)"></span>
+                                <h4>Project name here</h4>
                             </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>SP Jain</li>
+                        </li>
+                        <li class="grid-item">
+                            <a href="work_single.html">
+                                <span class="project_background" style="background-image: url(images/project_page_4.jpg)"></span>
+                                <h4>Project name here</h4>
                             </a>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6" id="canada">
-                    <div class="row">
-                        <h1 class="service_modal_header_left">CANADA</h1>
-                    </div>
-                    <div class="row">
-                        <ul class="university-list">
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Simon Fraser University</li>
+                        </li>
+                        <li class="grid-item anim">
+                            <a href="work_single.html">
+                                <span class="project_background" style="background-image: url(images/project_page_5.jpg)"></span>
+                                <h4>Project name here</h4>
                             </a>
-                            <div id="modal-1" class="modal fade" role="dialog">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <h4 class="uni_modal_top">Switzerland</h4>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <h2 class="uni_modal_header">Swiss Hotel Management School</h2>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <img src="img/university_1.jpg" class="img-responsive">
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1" style="text-align:center">
-                                                    <a class="button_uni about_link_button scroll_to_button trans_200" href="https://www.shms.com" target="_blank">Website</a>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-12 service_modal_text">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Royal Roads University</li>
+                        </li>
+                        <li class="grid-item anim">
+                            <a href="work_single.html">
+                                <span class="project_background" style="background-image: url(images/project_page_6.jpg)"></span>
+                                <h4>Project name here</h4>
                             </a>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6" id="switzerland">
-                    <div class="row">
-                        <h1 class="service_modal_header_left">SWITZERLAND</h1>
-                    </div>
-                    <div class="row">
-                        <ul class="university-list">
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Swiss Hotel Management School</li>
+                        </li>
+                        <li class="grid-item anim">
+                            <a href="work_single.html">
+                                <span class="project_background" style="background-image: url(images/project_page_7.jpg)"></span>
+                                <h4>Project name here</h4>
                             </a>
-                            <div id="modal-1" class="modal fade" role="dialog">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <h4 class="uni_modal_top">Switzerland</h4>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <h2 class="uni_modal_header">Swiss Hotel Management School</h2>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <img src="img/university_1.jpg" class="img-responsive">
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1" style="text-align:center">
-                                                    <a class="button_uni about_link_button scroll_to_button trans_200" href="https://www.shms.com" target="_blank">Website</a>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-12 service_modal_text">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Hotel Institute Montreux</li>
+                        </li>
+                        <li class="grid-item anim">
+                            <a href="work_single.html">
+                                <span class="project_background" style="background-image: url(images/project_page_8.jpg)"></span>
+                                <h4>Project name here</h4>
                             </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Cesar Ritz Colleges Switzerland</li>
+                        </li>
+                        <li class="grid-item anim">
+                            <a href="work_single.html">
+                                <span class="project_background" style="background-image: url(images/project_page_9.jpg)"></span>
+                                <h4>Project name here</h4>
                             </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>School Of Hotel Management Switzerland</li>
+                        </li>
+                        <li class="grid-item anim">
+                            <a href="work_single.html">
+                                <span class="project_background" style="background-image: url(images/project_page_10.jpg)"></span>
+                                <h4>Project name here</h4>
                             </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Culinary Arts Academy Switzerland</li>
-                            </a>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6" id="uk">
-                    <div class="row">
-                        <h1 class="service_modal_header_left">UK</h1>
-                    </div>
-                    <div class="row">
-                        <ul class="university-list">
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Bellerby College</li>
-                            </a>
-                            <div id="modal-1" class="modal fade" role="dialog">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <h4 class="uni_modal_top">Switzerland</h4>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <h2 class="uni_modal_header">Swiss Hotel Management School</h2>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <img src="img/university_1.jpg" class="img-responsive">
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1" style="text-align:center">
-                                                    <a class="button_uni about_link_button scroll_to_button trans_200" href="https://www.shms.com" target="_blank">Website</a>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-12 service_modal_text">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>The University of Sheffield</li>
-                            </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>University of Surrey</li>
-                            </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>University Of Sussex</li>
-                            </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Royal Holloway University London</li>
-                            </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Liverpool John Moores University</li>
-                            </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Institute Maragoni</li>
-                            </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>University of Huddersfield</li>
-                            </a>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6" id="usa">
-                    <div class="row">
-                        <h1 class="service_modal_header_left">USA</h1>
-                    </div>
-                    <div class="row">
-                        <ul class="university-list">
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Johnson & Wales University</li>
-                            </a>
-                            <div id="modal-1" class="modal fade" role="dialog">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <h4 class="uni_modal_top">Switzerland</h4>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <h2 class="uni_modal_header">Swiss Hotel Management School</h2>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1">
-                                                    <img src="img/university_1.jpg" class="img-responsive">
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-10 col-xs-offset-1" style="text-align:center">
-                                                    <a class="button_uni about_link_button scroll_to_button trans_200" href="https://www.shms.com" target="_blank">Website</a>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-xs-12 service_modal_text">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>James Madison University</li>
-                            </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>University of Vermon</li>
-                            </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Texas A & M Corpus Christi</li>
-                            </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Roosevelt University</li>
-                            </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Baylor University</li>
-                            </a>
-                            <a data-toggle="modal" data-target="#modal-1">
-                                <li>Kapiolani Community College University of Hawaii</li>
-                            </a>
-                        </ul>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

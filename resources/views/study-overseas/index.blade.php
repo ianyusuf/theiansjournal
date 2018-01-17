@@ -33,18 +33,23 @@
                                 <span class="hotspot-point"></span>                            
                             </span>
                         </div>
-                        <div class="hotspot-item" data-top="28%" data-left="45%">
+                        <div class="hotspot-item" data-top="25%" data-left="45%">
                             <span class="hotspot" data-toggle="tooltip" data-placement="top" title="UK">
                                 <span class="hotspot-point"></span>                            
                             </span>
                         </div>
-                        <a href="#" class="nav_links" data-scroll-to="#switzerland">
-                            <div class="hotspot-item" data-top="30%" data-left="60%">
+                        <div class="hotspot-item" data-top="32%" data-left="50%">
+                            <span class="hotspot" data-toggle="tooltip" data-placement="top" title="NETHERLANDS">
+                                <span class="hotspot-point"></span>                            
+                            </span>
+                        </div>
+                        <div class="hotspot-item" data-top="28%" data-left="62%">
+                            <a href="{{ url('study-overseas/switzerland') }}">
                                 <span class="hotspot" data-toggle="tooltip" data-placement="top" title="SWITZERLAND">
                                     <span class="hotspot-point"></span>                            
                                 </span>
-                            </div>
-                        </a>
+                             </a>
+                        </div>
                         <div class="hotspot-item" data-top="75%" data-left="85%">
                             <a href="{{ url('study-overseas/australia') }}">
                                 <span class="hotspot" data-toggle="tooltip" data-placement="top" title="AUSTRALIA">

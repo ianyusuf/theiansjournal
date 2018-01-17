@@ -15,4 +15,9 @@ class StudyController extends Controller
 	{
 		return view('study-overseas.australia');
 	}
+
+    public function switzerland()
+	{
+		return view('study-overseas.switzerland');
+	}
 }
