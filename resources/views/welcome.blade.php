@@ -39,17 +39,14 @@
         </div>
         <div class="main_slider_nav">
             <div class="main_slider_nav_inner">
-                <div class="main_nav_position">
-                    <div id="asd" class="main_nav_position_inner trans_200">
-                        1 &nbsp;of &nbsp;1
-                    </div>
-                </div>
+                <!--
                 <div class="main_nav_arrows">
                     <div class="main_nav_arrows_inner">
                         <div class="main_nav_left"><i class="icon ion-play arrow_left trans_200"></i></div>
                         <div class="main_nav_right"><i class="icon ion-play trans_200"></i></div>
                     </div>
                 </div>
+                -->
             </div>
         </div>
     </section>

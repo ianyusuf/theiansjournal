@@ -18,3 +18,8 @@ Route::get('study-overseas', 'StudyController@showContent');
 Route::get('study-overseas/australia', 'StudyController@australia');
 Route::get('study-overseas/switzerland', 'StudyController@switzerland');
 Route::get('contact-us', 'ContactController@showContent');
+
+Route::get('contact-us', 'ContactController@create');
+Route::post('contact-us', function (\Illuminate\Http\Request $request){
+
+});

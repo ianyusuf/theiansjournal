@@ -8,7 +8,7 @@
     <section id="contact" class="light">
 		<div class="contact_form_background"></div>
 		<div class="row">
-				<div class="container">
+			<div class="container">
 				<div class="col-md-2 col-md-offset-10">
 					<div class="section_title">
 						<h3>contact us</h3>
@@ -37,13 +37,15 @@
 				<div class="contact_row">
 					<div class="contact_text_white">
 						<p>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
 							<a class="contact_socmed" href="https://www.instagram.com/iceduindo/" target="_blank">
-								<i class="fa fa-instagram" aria-hidden="true"></i><span>@iceduindo</span>
+								<span>@iceduindo</span>
 							</a>
 						</p>
 						<p>
+							<i class="fa fa-facebook" aria-hidden="true"></i>
 							<a class="contact_socmed" href="https://www.instagram.com/iceduindo/" target="_blank">
-								<i class="fa fa-facebook" aria-hidden="true"></i><span>/icedu.indonesia</span>
+								<span>icedu.indonesia</span>
 							</a>
 						</p>
 					</div>
@@ -86,7 +88,7 @@
 							<div class="row">
 								<div class="col-sm-12">
 									<div class="form-group">
-										<textarea id="form_message" name="message" class="form-control" placeholder="Your message here..." rows="4" required data-error="Please, leave us a message."></textarea>
+										<textarea id="form_message" type="text" name="message" class="form-control" placeholder="Your message here..." rows="4" required data-error="Please, leave us a message."></textarea>
 										<div class="help-block with-errors contact_errors"></div>
 									</div>
 								</div>

@@ -21,7 +21,7 @@
 			</div>
 			<div class="map-row">
                 <div class="google-map">
-                    <img src="img/map.png" alt="ICEDU">
+                    <img src="img/map.png" alt="">
                     <div class="hotspot-wrap">
                         <div class="hotspot-item" data-top="15%" data-left="15%">
                             <span class="hotspot" data-toggle="tooltip" data-placement="top" title="CANADA">
@@ -33,25 +33,29 @@
                                 <span class="hotspot-point"></span>                            
                             </span>
                         </div>
-                        <div class="hotspot-item" data-top="24%" data-left="44%">
+                        <div class="hotspot-item" data-top="25%" data-left="45%">
                             <span class="hotspot" data-toggle="tooltip" data-placement="top" title="UK">
                                 <span class="hotspot-point"></span>                            
                             </span>
                         </div>
-                        <div class="hotspot-item" data-top="32%" data-left="52%">
+                        <div class="hotspot-item" data-top="32%" data-left="50%">
                             <span class="hotspot" data-toggle="tooltip" data-placement="top" title="NETHERLANDS">
                                 <span class="hotspot-point"></span>                            
                             </span>
                         </div>
                         <div class="hotspot-item" data-top="28%" data-left="62%">
-                            <span class="hotspot" data-toggle="tooltip" data-placement="top" title="SWITZERLAND">
-                                <span class="hotspot-point"></span>                            
-                            </span>
+                            <a href="{{ url('study-overseas/switzerland') }}">
+                                <span class="hotspot" data-toggle="tooltip" data-placement="top" title="SWITZERLAND">
+                                    <span class="hotspot-point"></span>                            
+                                </span>
+                             </a>
                         </div>
-                        <div class="hotspot-item" data-top="72%" data-left="83%">
-                            <span class="hotspot" data-toggle="tooltip" data-placement="top" title="AUSTRALIA">
-                                <span class="hotspot-point"></span>                            
-                            </span>
+                        <div class="hotspot-item" data-top="75%" data-left="85%">
+                            <a href="{{ url('study-overseas/australia') }}">
+                                <span class="hotspot" data-toggle="tooltip" data-placement="top" title="AUSTRALIA">
+                                    <span class="hotspot-point"></span>                            
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>  

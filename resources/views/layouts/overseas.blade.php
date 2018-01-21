@@ -5,9 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <title>ICEDU | @yield('title')</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="@yield('title'), Jadwal, Konser, Acara, Musik, Terbaru, Panggung, Kelompok, Indie, Indonesia, Jakarta, Gigs" />
 <meta name="description" content="Discover Indie GIGS" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="GIGS Jadwal Konser Musik Indie Terbaru Indonesia" />
 <meta name="googlebot" content="all" />
 <meta name="robots" content="index, follow" />
@@ -98,27 +98,19 @@
 			</div>
 		</div>
 	</div>
-    <div class="preloader ball-pulse">
-        <div class="loader">
-            <div class="ball"></div>
-        </div>
-    </div>
 
 <script type='text/javascript' src="{{ asset('plugins/overseas/jquery-2.2.4.js') }}"></script>
 <script type='text/javascript' src="{{ asset('plugins/overseas/bootstrap.min.js') }}"></script>
 <script type='text/javascript' src="{{ asset('plugins/overseas/plugins.js') }}"></script>
 <script type='text/javascript' src="{{ asset('plugins/overseas/functions.js') }}"></script>
+<script type='text/javascript' src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
 <script type='text/javascript' src="{{ asset('plugins/greensock/TweenMax.min.js') }}"></script>
-<script type='text/javascript' src="{{ asset('plugins/greensock/TimelineMax.min.js') }}"></script>
 <script type='text/javascript' src="{{ asset('plugins/scrollmagic/ScrollMagic.min.js') }}"></script>
 <script type='text/javascript' src="{{ asset('plugins/greensock/animation.gsap.min.js') }}"></script>
-<script type='text/javascript' src="{{ asset('plugins/greensock/ScrollToPlugin.min.js') }}"></script>
-<script type='text/javascript' src="{{ asset('plugins/charming/charming.min.js') }}"></script>
+<script type='text/javascript' src="{{ asset('plugins/parallaxslider/parallaxslider.js') }}"></script>
 <script type='text/javascript' src="{{ asset('plugins/parallax.js-1.4.2/parallax.js') }}"></script>
 <script type='text/javascript' src="{{ asset('plugins/parallax.js/parallax.min.js') }}"></script>
-<script type='text/javascript' src="{{ asset('plugins/easing/easing.js') }}"></script>
-<script type='text/javascript' src="{{ asset('plugins/masonry/masonry.pkgd.js') }}"></script>
-<script type='text/javascript' src="{{ asset('js/work_custom.js') }}"></script>
+<script type='text/javascript' src="{{ asset('js/custom.js') }}"></script>
 
 </body>
 </html>
