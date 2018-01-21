@@ -8,16 +8,16 @@ class StudyController extends Controller
 {
     public function showContent()
 	{
-		return view('study-overseas.index');
+		return view('overseas.index');
 	}
 
     public function australia()
 	{
-		return view('study-overseas.australia');
+		return view('overseas.australia');
 	}
 
     public function switzerland()
 	{
-		return view('study-overseas.switzerland');
+		return view('overseas.switzerland');
 	}
 }

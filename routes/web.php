@@ -12,14 +12,17 @@
 */
 
 Route::get('/', 'WelcomeController@showContent');
-Route::get('about-us', 'AboutController@showContent');
+Route::get('about', 'AboutController@showContent');
 Route::get('service', 'ServiceController@showContent');
-Route::get('study-overseas', 'StudyController@showContent');
-Route::get('study-overseas/australia', 'StudyController@australia');
-Route::get('study-overseas/switzerland', 'StudyController@switzerland');
-Route::get('contact-us', 'ContactController@showContent');
+Route::get('overseas', 'StudyController@showContent');
+Route::get('overseas/australia', 'StudyController@australia');
+Route::get('overseas/switzerland', 'StudyController@switzerland');
+Route::get('contact', 'ContactController@showContent');
 
-Route::get('contact-us', 'ContactController@create');
-Route::post('contact-us', function (\Illuminate\Http\Request $request){
-
-});
+Route::get('contact', 'ContactController@getEmail');
+Route::post('sendmail', function (\Illuminate\Http\Request $request, \Illuminate\Mail\Mailer $mailer){
+	$mailer
+		->to('info@icedu.id')
+		->send(new \App\Mail\MyMail($request->input('name, email, tel, message')));
+	return redirect()->back();
+})->name('sendmail');

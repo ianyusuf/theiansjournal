@@ -33,10 +33,10 @@
 				<div class="home_nav">
 					<ul>
 						<li class="link-braces"><a href="{{ url('/') }}">home</a></li>
-						<li class="link-braces"><a href="{{ url('about-us') }}">about us</a></li>
+						<li class="link-braces"><a href="{{ url('about') }}">about us</a></li>
 						<li class="link-braces"><a href="{{ url('service') }}">service</a></li>
-						<li class="link-braces"><a href="{{ url('study-overseas') }}">study overseas</a></li>
-						<li class="link-braces"><a href="{{ url('contact-us') }}">contact us</a></li>
+						<li class="link-braces"><a href="{{ url('overseas') }}">study overseas</a></li>
+						<li class="link-braces"><a href="{{ url('contact') }}">contact us</a></li>
 					</ul>
 				</div>
 			</div>

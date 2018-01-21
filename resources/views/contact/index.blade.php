@@ -56,7 +56,7 @@
 					<div class="contact_text">
 						<h3>SAY HELLO!</h3>
 					</div>
-					<form id="contact-form" method="post">
+					<form action="{{ route('sendmail') }}" id="contact-form" method="post">
 						<div class="controls">
 							<div class="row">
 								<div class="col-sm-8">
@@ -96,6 +96,7 @@
 							</div>
 							<div class="clear"></div>
 						</div>
+						{{ csrf_field() }}
 					</form>
 				</div>
 				<div class="contact_row">
