@@ -18,11 +18,3 @@ Route::get('overseas', 'StudyController@showContent');
 Route::get('overseas/australia', 'StudyController@australia');
 Route::get('overseas/switzerland', 'StudyController@switzerland');
 Route::get('contact', 'ContactController@showContent');
-
-Route::get('contact', 'ContactController@getEmail');
-Route::post('sendmail', function (\Illuminate\Http\Request $request, \Illuminate\Mail\Mailer $mailer){
-	$mailer
-		->to('info@icedu.id')
-		->send(new \App\Mail\MyMail($request->input('name, email, tel, message')));
-	return redirect()->back();
-})->name('sendmail');

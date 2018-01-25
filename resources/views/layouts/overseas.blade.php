@@ -27,7 +27,9 @@
 			<div class="header_content">
 				<div class="logo_container">
 					<a href="{{ url('/') }}">
-						<div class="logo"><img src="../img/logo.png" class="img-responsive"></div>
+						<div class="logo">
+							<img src="../img/logo.png" class="img-responsive" id="logo">
+						</div>
 					</a>
 				</div>
 				<div class="home_nav">
@@ -45,6 +47,7 @@
 		<div class="hamburger_container_outer">
 			<div class="hamburger_container">
 				<div class="hamburger">
+					<div></div>
 					<div></div>
 					<div></div>
 				</div>
@@ -77,22 +80,20 @@
 				<div class="fs_menu_left">
 					<div class="fs_menu_left_inner">
 						<ul class="fs_menu_social">
-							<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.instagram.com/iceduindo/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.facebook.com/IC-Education-131216864249341/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
 						</ul>
-						<div class="fs_menu_logo">swift</div>
+						<div class="fs_menu_logo">ICEDU</div>
 					</div>
 				</div>
 				<div class="fs_menu_right"></div>
 				<div class="fs_nav">
 					<ul>
-						<li><a href="#" class="fs_nav_links" data-scroll-to="#home">home</a></li>
-						<li><a href="about.html">about</a></li>
-						<li><a href="work.html">work</a></li>
-						<li><a href="blog_index.html">blog</a></li>
-						<li><a href="contact.html">contact</a></li>
+						<li><a href="{{ url('/') }}">home</a></li>
+						<li><a href="{{ url('about') }}">about us</a></li>
+						<li><a href="{{ url('service') }}">service</a></li>
+						<li><a href="{{ url('overseas') }}">study overseas</a></li>
+						<li><a href="{{ url('contact') }}">contact us</a></li>
 					</ul>
 				</div>
 			</div>

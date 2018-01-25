@@ -13,24 +13,18 @@ class MyMail extends Mailable
     use Queueable, SerializesModels;
 
     public $name;
-    /**
-     * Create a new message instance.
-     *
-     * @return void
-     */
+
     public function __construct($name)
     {
-        //
+       $this->name = $name;
     }
 
-    /**
-     * Build the message.
-     *
-     * @return $this
-     */
     public function build()
     {
-        return $this->from('mail@icedu.id')
-        ->view('email.mymail');
+        return $this->from('no-reply@icedu.id')
+        ->view('email.mymail')
+        ->with([
+            'name' => $this->name
+        ]);
     }
 }

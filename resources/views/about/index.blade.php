@@ -29,7 +29,7 @@
 				<div class="about_section_text">
 					<div class="col-md-4">
 						<p>ICEDU is education overseas consultant based in Jakarta, Indonesia. We focus to provide an informed, impartial and professional consulting to students wishing to study overseas.</p>
-						<p>We offer guidance to students to choose appropriate course and university on the basis of their profile. Armed with trained career advisors, we offer each candidate personalized attention and services. We ensure that your applications for admissions are well prepared and well presented. Our primary role is to connect students with universities and colleges around the world. Students looking for dependable overseas education consultants can rely on us for guidance. </p>
+						<p>We offer guidance to students to choose appropriate course and university on the basis of their profile. Armed with trained career advisors, we offer each candidate personalized attention and services. We ensure that your applications for admissions are well prepared and well presented. Our primary role is to connect students with universities and colleges around the world. Students looking for dependable overseas education consultants can rely on us for guidance.</p>
 					</div>
 				</div>
 				<div class="col-md-8">

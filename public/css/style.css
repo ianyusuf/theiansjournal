@@ -404,6 +404,12 @@ section
 {
 	width:150px;
 }
+@media (max-width:500px) {
+	#logo
+	{
+		height: 60px;
+	}
+}
 .logo_a
 {
 	letter-spacing: 8px;
@@ -936,6 +942,10 @@ section
 {
 	transform: translateY(8px) rotate(45deg);
 }
+.hamburger.active div:middle-child
+{
+	transform: translateY(8px) rotate(45deg);
+}
 .hamburger.active div:last-child
 {
 	transform: translateY(-8px) rotate(-45deg);
@@ -997,7 +1007,7 @@ section
 	left: 0;
 	width: 90%;
 	height: 100%;
-	background: #00bcd5;
+	background: #f05234;
 	-webkit-transition: all 1000ms cubic-bezier(.21,.51,.43,.99);
 	-moz-transition: all 1000ms cubic-bezier(.21,.51,.43,.99);
 	-ms-transition: all 1000ms cubic-bezier(.21,.51,.43,.99);
@@ -1016,7 +1026,7 @@ section
 	right: 0;
 	width: 30px;
 	height: 100%;
-	background: #00bcd5;
+	background: #f05234;
 }
 .fs_menu_overlay.active
 {
@@ -1193,6 +1203,7 @@ section
 	}
 	.about_section_title h3{
 		font-size: 1em;
+		line-height: 25px;
 	}
 }
 

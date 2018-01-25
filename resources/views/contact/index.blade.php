@@ -39,13 +39,13 @@
 						<p>
 							<i class="fa fa-instagram" aria-hidden="true"></i>
 							<a class="contact_socmed" href="https://www.instagram.com/iceduindo/" target="_blank">
-								<span>@iceduindo</span>
+								<span><b>@iceduindo</b></span>
 							</a>
 						</p>
 						<p>
 							<i class="fa fa-facebook" aria-hidden="true"></i>
-							<a class="contact_socmed" href="https://www.instagram.com/iceduindo/" target="_blank">
-								<span>icedu.indonesia</span>
+							<a class="contact_socmed" href="https://www.facebook.com/IC-Education-131216864249341/" target="_blank">
+								<span><b>IC Education</b></span>
 							</a>
 						</p>
 					</div>
@@ -56,7 +56,8 @@
 					<div class="contact_text">
 						<h3>SAY HELLO!</h3>
 					</div>
-					<form action="{{ route('sendmail') }}" id="contact-form" method="post">
+					<form action="{{ url('sendmail') }}" id="contact-form" method="post">
+						<input name="_token" type="hidden" value="{{ csrf_token() }}">
 						<div class="controls">
 							<div class="row">
 								<div class="col-sm-8">
@@ -67,6 +68,7 @@
 									</div>
 								</div>
 							</div>
+							<!--
 							<div class="row">
 								<div class="col-sm-8">
 									<div class="form-group">
@@ -92,11 +94,11 @@
 										<div class="help-block with-errors contact_errors"></div>
 									</div>
 								</div>
-								<button type="submit" class="button_b button_contact" value="Submit">send</button>
 							</div>
+							-->
+							<button type="submit" class="button_b button_contact" value="Submit">send</button>
 							<div class="clear"></div>
 						</div>
-						{{ csrf_field() }}
 					</form>
 				</div>
 				<div class="contact_row">
