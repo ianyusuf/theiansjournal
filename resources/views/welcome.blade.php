@@ -39,58 +39,43 @@
         </div>
     </section>
 
-    <section class="light" id="mobile-only">
+    <section class="light" id="mobile-only" style="background: #fd4219">
         <div id="scene">
             <div class="layer" data-depth="0.50"><div class="about_background"></div></div>
         </div>
-        <div class="container">
-            <div class="about_text_row">
-                <div class="col-md-2 col-md-offset-10">
-                    <div class="section_title">
-                        <h3>about us</h3>
+        <div class="home_background">
+            <img src="img/header-m.png" class="img-responsive"></div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="about_text_row" style="margin-bottom: 40px">
+                    <div class="col-md-9">
+                        <div class="about_section_title">
+                            <h3>We Prepare & Guide International Students For Study Abroad</h3>
+                            <a class="button_a about_link_button scroll_to_button trans_200" href="{{ url('service') }}">Learn More</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="about_text_row">
-                <div class="col-md-9">
-                    <div class="about_section_title">
-                        <h4>What We Do</h4>
-                        <h3>We Prepare & Guide International Students Through The Admission Application & Visa Process For Study Abroad</h3>
+        </div>
+    </section>
+
+    <section class="home-slider" id="mobile-only">
+        <div class="slider_container">
+            <div id="myparallaxslider" class="parallaxslider">
+                <div class="slide">
+                    <div class="bgoverlay slider_bg slider_bg_1" data-order="1">
+                        <img src="img/slider/slider-1.jpg" class="img-responsive">
                     </div>
                 </div>
             </div>
-            <div class="about_text_row">
-                <div class="about_section_text">
-                    <div class="col-md-4">
-                        <p>ICEDU is education overseas consultant based in Jakarta, Indonesia. We focus to provide an informed, impartial and professional consulting to students wishing to study overseas.</p>
-                        <p>We offer guidance to students to choose appropriate course and university on the basis of their profile. Armed with trained career advisors, we offer each candidate personalized attention and services. We ensure that your applications for admissions are well prepared and well presented. Our primary role is to connect students with universities and colleges around the world. Students looking for dependable overseas education consultants can rely on us for guidance.</p>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <img src="img/about/university.jpg" class="img-responsive" width="100%">
-                    <p style="margin-top:10px; text-align:center; font-weight:900; color: #fff;">The Bradfield Centre, Cambridge Science Park</p>
-                </div>
-            </div>
-            <div class="about_text_row">
-                <div class="about_section_text">
-                    <div class="col-md-12">
-                        <p>We offer students a choice of thousands of courses at various leading educational institutions in Australia, Canada, New Zealand, Switzerland, United Kingdom and United States of America. With more than 15 years of experience, we take pride in providing student with an expert consultation.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="about_text_row">
-                <div class="about_section_text">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h4 style="text-align: center; color: #fff; font-weight: 900;">Vision</h4>
-                        <p style="text-align: center">To be the most recognized company with committed to overseas study and education thru excellent services, trustworthy and professional.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="about_text_row">
-                <div class="about_section_text">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h4 style="text-align: center; color: #fff; font-weight: 900;">Mission</h4>
-                        <p style="text-align: center">Provide the best services to every student in overseas study and their preparation so they can reach the bright future ahead</p>
+        </div>
+        <div class="main_slider_nav">
+            <div class="main_slider_nav_inner">
+                <div class="main_nav_arrows">
+                    <div class="main_nav_arrows_inner">
+                        <div class="main_nav_left"><i class="icon ion-play arrow_left trans_200" s></i></div>
+                        <div class="main_nav_right"><i class="icon ion-play trans_200"></i></div>
                     </div>
                 </div>
             </div>

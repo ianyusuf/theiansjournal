@@ -930,7 +930,7 @@ section
 	right: 30px;
 	width: 41px;
 	height: 41px;
-	z-index: 10004;
+	z-index: 8000;
 }
 .hamburger
 {
@@ -957,7 +957,7 @@ section
 	left: 5px;
 	width: 30px;
 	height: 3px;
-	background: #313131;
+	background: #f05234;
 	-webkit-transition: all 1000ms ease;
 	-moz-transition: all 1000ms ease;
 	-ms-transition: all 1000ms ease;
@@ -3697,9 +3697,6 @@ img {
 	padding-top: 120px;
 }
 .work-pad{
-	padding-bottom: 20px;
-}
-.work-pad-sm{
 	padding-bottom: 20px;
 }
 .work_nav_container

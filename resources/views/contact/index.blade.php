@@ -56,7 +56,7 @@
 					<div class="contact_text">
 						<h3>SAY HELLO!</h3>
 					</div>
-					<form action="{{ url('sendmail') }}" id="contact-form" method="post">
+					<form action="{{ url('email') }}" id="contact-form" method="post">
 						<input name="_token" type="hidden" value="{{ csrf_token() }}">
 						<div class="controls">
 							<div class="row">
@@ -68,7 +68,6 @@
 									</div>
 								</div>
 							</div>
-							<!--
 							<div class="row">
 								<div class="col-sm-8">
 									<div class="form-group">
@@ -82,7 +81,7 @@
 								<div class="col-sm-8">
 									<div class="form-group">
 										<div class="tel_focus">Phone</div>
-										<input id="form_tel" type="text" name="tel" class="form-control" placeholder="Input your phone number..." required="required" data-error="Valid phone number is required.">
+										<input id="form_tel" type="text" name="phone" class="form-control" placeholder="Input your phone number..." required="required" data-error="Valid phone number is required.">
 										<div class="help-block with-errors contact_errors"></div>
 									</div>
 								</div>
@@ -95,13 +94,16 @@
 									</div>
 								</div>
 							</div>
-							-->
 							<button type="submit" class="button_b button_contact" value="Submit">send</button>
-							<div class="clear"></div>
+							@if(session()->has('message'))
+							    <div class="alert alert-success">
+							        {{ session()->get('message') }}
+							    </div>
+							@endif
 						</div>
 					</form>
 				</div>
-				<div class="contact_row">
+				<div class="contact_row" style="margin-top:80px;">
 					<div class="contact_container">
 						<div class="row">
 							<div class="col-sm-12">

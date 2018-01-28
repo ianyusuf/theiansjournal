@@ -11,13 +11,14 @@ class ContactController extends Controller
 		return view('contact.index');
 	}
 
-    public function getEmail()
+    public function sendEmail()
 	{
-		return view('contact.index');
+		return view('email.index');
 	}
 
-    public function postEmail(Request $request)
-    {
-        $this->validate($request);
-    }
+	public function store(Request $request)
+	{
+	    $request->session()->flash('alert-success', 'Your email has been sent!');
+	    return redirect()->route("contact.index");
+	}
 }
