@@ -1041,11 +1041,12 @@
 	}
 	.hamburger.active div:middle-child
 	{
-		transform: translateY(5px) rotate(45deg);
+		transform: translateY(5px) rotate(120deg);
+		background: #fff!important;
 	}
 	.hamburger.active div:last-child
 	{
-		transform: translateY(-5px) rotate(45deg);
+		transform: translateY(-5px) rotate(-45deg);
 	}
 	.hamburger div
 	{

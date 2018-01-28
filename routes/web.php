@@ -16,5 +16,8 @@ Route::get('about', 'AboutController@showContent');
 Route::get('service', 'ServiceController@showContent');
 Route::get('overseas', 'StudyController@showContent');
 Route::get('overseas/australia', 'StudyController@australia');
+Route::get('overseas/canada', 'StudyController@canada');
 Route::get('overseas/switzerland', 'StudyController@switzerland');
+Route::get('overseas/uk', 'StudyController@uk');
+Route::get('overseas/usa', 'StudyController@usa');
 Route::get('contact', 'ContactController@showContent');

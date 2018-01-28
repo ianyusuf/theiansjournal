@@ -945,6 +945,7 @@ section
 .hamburger.active div:middle-child
 {
 	transform: translateY(8px) rotate(45deg);
+	background: #fff!important;
 }
 .hamburger.active div:last-child
 {
@@ -1560,23 +1561,23 @@ section
 
 .slider_background_1
 {
-	background-image: url(../images/project_1.jpg);
+	background-image: url(../img/study/switzerland/shms.jpg);
 }
 .slider_background_2
 {
-	background-image: url(../images/project_2.jpg);
+	background-image: url(../img/study/switzerland/shms.jpg);
 }
 .slider_background_3
 {
-	background-image: url(../images/project_3.jpg);
+	background-image: url(../img/study/switzerland/shms.jpg);
 }
 .slider_background_4
 {
-	background-image: url(../images/project_4.jpg);
+	background-image: url(../img/study/switzerland/shms.jpg);
 }
 .slider_background_5
 {
-	background-image: url(../images/project_5.jpg);
+	background-image: url(../img/study/switzerland/shms.jpg);
 }
 #projects .button_nav
 {
@@ -3275,7 +3276,7 @@ input[type="email"], input[type="password"], input[type="text"]
 #overseas{
 	width: 100%;
 	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-bottom: 60px;;
 }
 
 .locations .container {
@@ -3298,6 +3299,7 @@ input[type="email"], input[type="password"], input[type="text"]
 }
 .uni_modal_top{
 	font-size: 1em;
+	font-weight: 600;
 	color: #1f1f45;
 	text-transform: uppercase;
 	margin-bottom: -10px;
@@ -3330,6 +3332,14 @@ input[type="email"], input[type="password"], input[type="text"]
 	padding-top: 120px;
 	padding-bottom: 120px;
 	background: #1e91d2;
+}
+
+@media (max-width:550px) {
+	#overbottom
+	{
+		height:100px;
+		background: #1e91d2;
+	}
 }
 
 .locations {
@@ -3686,6 +3696,12 @@ img {
 	width: 100%;
 	padding-top: 120px;
 }
+.work-pad{
+	padding-bottom: 20px;
+}
+.work-pad-sm{
+	padding-bottom: 20px;
+}
 .work_nav_container
 {
 	padding-top: 120px;
@@ -3772,9 +3788,17 @@ img {
 }
 .grid-item
 {
-	width: 50%;
+	width: 100%;
 	height: calc(50vw / 1.777777777777778);
 	overflow: hidden;
+}
+@media (max-width:550px) {
+	.grid-item
+	{
+		width: 100%;
+		height: calc(50vw / 1);
+		overflow: hidden;
+	}
 }
 .grid-item a
 {
@@ -3824,5 +3848,7 @@ img {
 	z-index: 10;
 	font-family: 'Montserrat', serif;
 	font-weight: 900;
+	font-size: 2em;
+	text-transform: uppercase;
 	cursor: pointer;
 }

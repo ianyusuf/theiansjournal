@@ -10,7 +10,7 @@
             <div class="ball"></div>
         </div>
     </div>
-    <section id="service">
+    <section id="work">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-md-offset-9" style="padding-bottom:20px">
@@ -19,49 +19,65 @@
                     </div>
                 </div>
             </div>
-            <div class="row" style="padding-bottom:20px">
-                <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-6 work-pad">
                     <div class="section_title">
-                        <a href="{{ url('study-overseas') }}">
-                            <h1 class="service_modal_header_left"> < Switzerland</h1>
+                        <a href="{{ url('overseas') }}">
+                            <h1 class="service_modal_header_left"> &#x25C4; Switzerland</h1>
                         </a>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 work_container">
-                    <ul class="grid">
-                        <li class="grid-item">
+                <div class="work_container">
+                    <div class="col-lg-6 col-md-6 col-sm-6 work-pad">
+                        <div class="grid-item">
                             <a data-toggle="modal" data-target="#modal-1">
                                 <span class="project_background" style="background-image: url('../img/study/switzerland/shms.jpg')"></span>
                                 <h4>Swiss Hotel Management School</h4>
                             </a>
-                        </li>
-                        <li class="grid-item">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 work-pad">
+                        <div class="grid-item">
                             <a data-toggle="modal" data-target="#modal-2">
                                 <span class="project_background" style="background-image: url('../img/study/switzerland/him.jpg')"></span>
                                 <h4>Hotel Institute Montreux</h4>
                             </a>
-                        </li>
-                        <li class="grid-item">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="work_container">
+                    <div class="col-lg-6 col-md-6 col-sm-6 work-pad">
+                        <div class="grid-item">
                             <a data-toggle="modal" data-target="#modal-3">
                                 <span class="project_background" style="background-image: url('../img/study/switzerland/crcs.jpg')"></span>
                                 <h4>Cesar Ritz Colleges Switzerland</h4>
                             </a>
-                        </li>
-                        <li class="grid-item">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 work-pad">
+                        <div class="grid-item">
                             <a data-toggle="modal" data-target="#modal-4">
                                 <span class="project_background" style="background-image: url('../img/study/switzerland/ihtti.jpg')"></span>
                                 <h4>School of Hotel Management Switzerland</h4>
                             </a>
-                        </li>
-                        <li class="grid-item anim">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="work_container">
+                    <div class="col-lg-6 col-md-6 work-pad">
+                        <div class="grid-item">
                             <a data-toggle="modal" data-target="#modal-5">
                                 <span class="project_background" style="background-image: url('../img/study/switzerland/caas.jpg')"></span>
                                 <h4>Culinary Arts Academy Switzerland</h4>
                             </a>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -86,7 +102,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-10 col-xs-offset-1">
-                            <img src="../img/study/switzerland/shms.jpg" class="img-responsive">
+                            <img src="../img/study/switzerland/shms.jpg" class="img-responsive" alt="ICEDU Indonesia">
                         </div>
                     </div>
                     <div class="row">
@@ -129,7 +145,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-10 col-xs-offset-1">
-                            <img src="../img/study/switzerland/him.jpg" class="img-responsive">
+                            <img src="../img/study/switzerland/him.jpg" class="img-responsive" alt="ICEDU Indonesia">
                         </div>
                     </div>
                     <div class="row">
@@ -141,8 +157,7 @@
                         <div class="col-xs-12 service_modal_text">
                             <p>Hotel Institute Montreux (HIM), founded in 1984, is a private hotel school located in Montreux, Switzerland that provides a university level education for students wanting to gain an education in the hospitality industry.<br><br>
                             HIMoffer a blend of traditional Swiss hospitality with contemporary American business studies. With specializations offered in close partnership with industry leaders, The academic degree from the US partner university, Northwood University, rounds off our graduates’ business management skills, making them highly sought after for careers in the hospitality and wider service industry sector.<br><br>
-                            The campuses are renovated from former hotels. The classes cover all aspects of hotel management. The school is known for its generation of top Swiss hoteliers for over 25 years and many of its alumni are found at the largest hotel chains in the world.
-</p>
+                            The campuses are renovated from former hotels. The classes cover all aspects of hotel management. The school is known for its generation of top Swiss hoteliers for over 25 years and many of its alumni are found at the largest hotel chains in the world.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -174,7 +189,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-10 col-xs-offset-1">
-                            <img src="../img/study/switzerland/crcs.jpg" class="img-responsive">
+                            <img src="../img/study/switzerland/crcs.jpg" class="img-responsive" alt="ICEDU Indonesia">
                         </div>
                     </div>
                     <div class="row">
@@ -213,7 +228,7 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-xs-10 col-xs-offset-1">
-                            <h4 class="uni_modal_top">< Switzerland</h4>
+                            <h4 class="uni_modal_top">Switzerland</h4>
                         </div>
                     </div>
                     <div class="row">
@@ -223,7 +238,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-10 col-xs-offset-1">
-                            <img src="../img/study/switzerland/ihtti.jpg" class="img-responsive">
+                            <img src="../img/study/switzerland/ihtti.jpg" class="img-responsive" alt="ICEDU Indonesia">
                         </div>
                     </div>
                     <div class="row">
@@ -266,7 +281,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-10 col-xs-offset-1">
-                            <img src="../img/study/switzerland/caas.jpg" class="img-responsive">
+                            <img src="../img/study/switzerland/caas.jpg" class="img-responsive" alt="ICEDU Indonesia">
                         </div>
                     </div>
                     <div class="row">

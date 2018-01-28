@@ -5,14 +5,14 @@
 <head>
 <meta charset="UTF-8">
 <title>ICEDU | @yield('title')</title>
-<meta name="keywords" content="@yield('title'), Jadwal, Konser, Acara, Musik, Terbaru, Panggung, Kelompok, Indie, Indonesia, Jakarta, Gigs" />
-<meta name="description" content="Discover Indie GIGS" />
+<meta name="keywords" content="@yield('title'), ICEDU, Indonesia, International Education Service, USA, AUSTRALIA, CHINA, ENGLAND, CANADA, MALAYSIA, NEW ZEALAND, SINGAPORE, SWITZERLAND" />
+<meta name="description" content="Provide international education service to: USA AUSTRALIA CHINA ENGLAND CANADA MALAYSIA NEW ZEALAND SINGAPORE SWITZERLAND" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="GIGS Jadwal Konser Musik Indie Terbaru Indonesia" />
+<meta name="generator" content="International Education Service" />
 <meta name="googlebot" content="all" />
 <meta name="robots" content="index, follow" />
-<meta name="author" content="GIGS, Hadyan Yusuf, Radin Raihanda, Devananda" />
-<meta name="copyright" content="gigs.co.id, All Rights Reserved" />
+<meta name="author" content="PT. Inti Cemerland Edukasi" />
+<meta name="copyright" content="PT. Inti Cemerland Edukasi, All Rights Reserved" />
 
 <link rel="shortcut icon" href="{{ asset('favicon.png') }}">
 
@@ -55,7 +55,6 @@
 		<div class="hamburger_container_outer">
 			<div class="hamburger_container">
 				<div class="hamburger">
-					<div></div>
 					<div></div>
 					<div></div>
 				</div>
