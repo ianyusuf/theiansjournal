@@ -526,7 +526,7 @@
 	.fs_nav ul li a
 	{
 		font-weight: 900;
-		font-size: 32px;
+		font-size: 1.2em;
 		line-height: 60px;
 		letter-spacing: 2px;
 	}
@@ -963,7 +963,7 @@
 	.fs_nav ul li a
 	{
 		font-weight: 900;
-		font-size: 24px;
+		font-size: 1em;
 		line-height: 40px;
 		letter-spacing: 2px;
 	}

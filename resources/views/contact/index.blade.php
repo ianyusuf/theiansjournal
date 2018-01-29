@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    Home
+    Contact
 @endsection
 
 @section('content')
