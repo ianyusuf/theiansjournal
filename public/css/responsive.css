@@ -93,8 +93,21 @@
    Service
 ************/
 
-@media (max-width:550px)  {
-	#service{
+@media only screen and (max-width:770px) {
+	.service_modal_header
+	{
+		margin-top: 15px;
+		font-size: 1.3em;
+		font-weight: 900;
+		color: #fd431a;
+		text-transform: uppercase;
+		text-align:center;
+	}
+}
+
+@media only screen and (max-width:550px) {
+	#service
+	{
 		width: 100%;
 		padding-top: 80px;
 		padding-bottom: 80px;
@@ -112,9 +125,43 @@
 	.service-text{
 		text-align:center;
 	}
-	.service_modal_text p{
+	.service_modal_text p
+	{
 		font-size:0.8em;
 		color: #000;
+	}
+	.service_modal_header
+	{
+		margin-top: 20px;
+		font-size: 1.5em;
+		font-weight: 900;
+		color: #fd431a;
+		text-transform: uppercase;
+		text-align:center;
+	}
+}
+
+@media only screen and (max-width:380px) {
+	.service_modal_header
+	{
+		margin-top: 15px;
+		font-size: 1.3em;
+		font-weight: 900;
+		color: #fd431a;
+		text-transform: uppercase;
+		text-align:center;
+	}
+}
+
+@media only screen and (max-width:325px) {
+	.service_modal_header
+	{
+		margin-top: 15px;
+		font-size: 1em;
+		font-weight: 900;
+		color: #fd431a;
+		text-transform: uppercase;
+		text-align:center;
 	}
 }
 
