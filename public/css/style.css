@@ -202,6 +202,42 @@ section
 {
 	height: 550px;
 }
+
+@media only screen and (max-width: 1030px) {
+	.slider_container
+	{
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.slider_container
+	{
+		height: 750px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.slider_container
+	{
+		height: 440px;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.slider_container
+	{
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width: 325px) {
+	.slider_container
+	{
+		height: 340px;
+	}
+}
+
 #hero_slider
 {
 	width: 100% !important;
@@ -349,7 +385,7 @@ section
 .main_nav_left:hover i,
 .main_nav_right:hover i
 {
-	color: rgba(0, 0, 0, 0.8);;
+	color: rgba(0, 0, 0, 0.8);
 }
 
 /*********************************
@@ -364,7 +400,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 100px;
-	background: transparent;
+	background: transparent!important;
 	z-index: 1002;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -1165,7 +1201,7 @@ section
 #about
 {
 	width: 100%;
-	padding-top: 120px;
+	padding-top: 80px;
 	padding-bottom: 120px;
 	background: #f05234;
 }
@@ -1393,7 +1429,7 @@ section
 }
 .service_modal_text{
 	cursor: default;
-	padding: 20px 60px;
+	padding: 20px 40px;
 	font-size: 1em;
 	text-align: justify;
 }
@@ -1402,7 +1438,7 @@ section
 	color: #000;
 }
 
-@media (max-width:480px)  {
+@media (max-width:550px)  {
 	#service{
 		width: 100%;
 		padding-top: 80px;
@@ -1420,6 +1456,10 @@ section
 
 	.service-text{
 		text-align:center;
+	}
+	.service_modal_text p{
+		font-size:0.8em;
+		color: #000;
 	}
 }
 
@@ -3055,7 +3095,6 @@ input[type="email"], input[type="password"], input[type="text"]
 {
 	font-size: 14px;
 	color: #fff;
-	padding-left: 30px;
 	text-align: center;
 }
 .footer_content
@@ -3335,9 +3374,16 @@ input[type="email"], input[type="password"], input[type="text"]
 }
 
 @media (max-width:550px) {
+	#locations
+	{
+		width: 100%;
+		padding-top: 80px;
+		padding-bottom: 120px;
+		background: #1e91d2;
+	}
 	#overbottom
 	{
-		height:100px;
+		height:120px;
 		background: #1e91d2;
 	}
 }
@@ -3433,12 +3479,6 @@ input[type="email"], input[type="password"], input[type="text"]
     margin-left: -8px;
     border-width: 8px 8px 0;
     bottom: -8px;
-}
-/* Keyframe Animation */
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 /*--------------------------- */
@@ -3694,7 +3734,7 @@ img {
 #work
 {
 	width: 100%;
-	padding-top: 120px;
+	padding-top: 80px;
 }
 .work-pad{
 	padding-bottom: 20px;

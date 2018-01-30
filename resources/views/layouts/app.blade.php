@@ -11,8 +11,8 @@
 <meta name="generator" content="International Education Service" />
 <meta name="googlebot" content="all" />
 <meta name="robots" content="index, follow" />
-<meta name="author" content="PT. Inti Cemerland Edukasi" />
-<meta name="copyright" content="PT. Inti Cemerland Edukasi, All Rights Reserved" />
+<meta name="author" content="PT. Inti Cemerlang Edukasi" />
+<meta name="copyright" content="PT. Inti Cemerlang Edukasi, All Rights Reserved" />
 
 <link rel="shortcut icon" href="{{ asset('favicon.png') }}">
 
@@ -67,7 +67,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<p class="footer_text_center">&copy; 2017 PT. Inti Cemerland Edukasi</p>
+						<p class="footer_text_center">&copy; 2017 PT. Inti Cemerlang Edukasi</p>
 					</div>
 				</div>
 			</div>	

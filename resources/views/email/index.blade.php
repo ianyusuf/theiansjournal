@@ -3,8 +3,8 @@
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
 	$message = $_POST['message'];
-	$to      = 'hadyanyusuf@gmail.com';
-	$subject = 'You got email from website';
+	$to      = 'info@icedu.id';
+	$subject = 'You got email from your website';
 	$message = "Dear ICEDU Indonesia,
 
 	You have got a message from your website. Details of the message are listed below:

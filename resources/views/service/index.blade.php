@@ -39,7 +39,7 @@
 									</div>
 									<div class="row">
 										<div class="col-xs-12 service_modal_text">
-											<p>Study overseas is everybody dreams, we help student to reach their dream by preparing early with many option countries destination: <b>Australia, Canada, China, New Zealand, Switzerland, United Kingdom, United States of America</b> and many more.</p>
+											<p>Free advice and guidance regarding detail information on study option available at numerous university, colleges & school. Also assist students in the choice of right courses combination, education establishment and country destination.</p>
 										</div>
 									</div>
 								</div>
@@ -418,7 +418,7 @@
 									</div>
 									<div class="row">
 										<div class="col-xs-12 service_modal_text">
-											<p>Study overseas is everybody dreams, we help student to reach their dream by preparing early with many option countries destination: <b>Australia, Canada, China, New Zealand, Switzerland, United Kingdom, United States of America</b> and many more.</p>
+											<p>Free advice and guidance regarding detail information on study option available at numerous university, colleges & school. Also assist students in the choice of right courses combination, education establishment and country destination.</p>
 										</div>
 									</div>
 								</div>

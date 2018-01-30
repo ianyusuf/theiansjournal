@@ -46,16 +46,12 @@
 			</div>
 			<div class="about_text_row">
 				<div class="about_section_text">
-					<div class="col-md-8 col-md-offset-2">
-						<h4 style="text-align: center; color: #fff; font-weight: 900;">Vision</h4>
+					<div class="col-md-6">
+						<h4 style="text-align: center; color: #fff; font-weight: 900; margin-top:40px">Vision</h4>
 						<p style="text-align: center">To be the most recognized company with committed to overseas study and education thru excellent services, trustworthy and professional.</p>
 					</div>
-				</div>
-			</div>
-			<div class="about_text_row">
-				<div class="about_section_text">
-					<div class="col-md-8 col-md-offset-2">
-						<h4 style="text-align: center; color: #fff; font-weight: 900;">Mission</h4>
+					<div class="col-md-6">
+						<h4 style="text-align: center; color: #fff; font-weight: 900; margin-top:40px">Mission</h4>
 						<p style="text-align: center">Provide the best services to every student in overseas study and their preparation so they can reach the bright future ahead</p>
 					</div>
 				</div>

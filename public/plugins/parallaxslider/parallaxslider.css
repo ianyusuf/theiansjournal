@@ -6,7 +6,7 @@ height:100%;
 /* ######### Shared CSS for various parts of slider (in the event of multiple sliders) ######### */
 
 div.parallaxslider{ /* shared CSS for main carousel container */
-background: black url(ajaxload.gif) center center no-repeat; /* loading gif while caoursel is loading */
+background: #1e1f45 url(ajaxload.gif) center center no-repeat; /* loading gif while caoursel is loading */
 }
 
 div.parallaxslider img.navbutton{ /* CSS for the nav buttons */
@@ -34,7 +34,7 @@ width: 100%;
 height: 100%;
 top: 0;
 left: 0;
-background-color: black;
+background-color: #1e1f45;
 background-position: center center; /* center image within carousel */
 background-repeat: no-repeat;
 background-size: cover; /* CSS3 property to scale image within container? "cover" or "contain" */
