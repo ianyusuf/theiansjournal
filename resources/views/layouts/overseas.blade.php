@@ -3,22 +3,32 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-<meta charset="UTF-8">
-<title>ICEDU | @yield('title')</title>
-<meta name="keywords" content="@yield('title'), ICEDU, Indonesia, International Education Service, USA, AUSTRALIA, CHINA, ENGLAND, CANADA, MALAYSIA, NEW ZEALAND, SINGAPORE, SWITZERLAND" />
-<meta name="description" content="Provide international education service to: USA AUSTRALIA CHINA ENGLAND CANADA MALAYSIA NEW ZEALAND SINGAPORE SWITZERLAND" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="International Education Service" />
-<meta name="googlebot" content="all" />
-<meta name="robots" content="index, follow" />
-<meta name="author" content="PT. Inti Cemerlang Edukasi" />
-<meta name="copyright" content="PT. Inti Cemerlang Edukasi, All Rights Reserved" />
+	<meta charset="UTF-8">
+	<title>ICEDU | @yield('title')</title>
+	<meta name="keywords" content="@yield('title'), ICEDU, Indonesia, International Education Service, USA, AUSTRALIA, CHINA, ENGLAND, CANADA, MALAYSIA, NEW ZEALAND, SINGAPORE, SWITZERLAND" />
+	<meta name="description" content="Provide international education service to: USA AUSTRALIA CHINA ENGLAND CANADA MALAYSIA NEW ZEALAND SINGAPORE SWITZERLAND" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="generator" content="International Education Service" />
+	<meta name="googlebot" content="all" />
+	<meta name="robots" content="index, follow" />
+	<meta name="author" content="PT. Inti Cemerlang Edukasi" />
+	<meta name="copyright" content="PT. Inti Cemerlang Edukasi, All Rights Reserved" />
 
-<link rel="shortcut icon" href="{{ asset('favicon.png') }}">
+	<link rel="shortcut icon" href="{{ asset('favicon.png') }}">
 
-<link rel='stylesheet' href="{{ asset('css/bootstrap/bootstrap.css') }}" type='text/css' media='all' />
-<link rel='stylesheet' href="{{ asset('css/style.css') }}" type='text/css' media='all' />
-<link rel='stylesheet' href="{{ asset('css/responsive.css') }}" type='text/css' media='all' />
+	<link rel='stylesheet' href="{{ asset('css/bootstrap/bootstrap.css') }}" type='text/css' media='all' />
+	<link rel='stylesheet' href="{{ asset('css/style.css') }}" type='text/css' media='all' />
+	<link rel='stylesheet' href="{{ asset('css/responsive.css') }}" type='text/css' media='all' />
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113350712-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-113350712-1');
+	</script>
 </head>
 
 <body>
