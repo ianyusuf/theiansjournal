@@ -1,24 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
-
-/******************************
-
-[Table of Contents]
-
-1. 1600px
-2. 1280px
-3. 1199px
-4. 1024px
-5. 991px
-6. 959px
-7. 880px
-8. 768px
-9. 767px
-10. 639px
-11. 479px
-12. 400px
-
-******************************/
 
 @media (min-width:901px) {
 	#desktop-only
@@ -39,6 +19,134 @@
 	#mobile-only
 	{
 		display: block;
+	}
+}
+
+/************
+	HOME
+************/
+
+@media only screen and (max-width: 1030px) {
+	.slider_container
+	{
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width: 770px) {
+	.home
+	{
+		background: #fd4219;
+	}
+	#home-header-m{
+		width: 100%!important;
+	}
+	.slider_container
+	{
+		height: 800px;
+	}
+}
+
+@media (max-width:500px) {
+	#logo
+	{
+		height: 60px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.slider_container
+	{
+		height: 430px;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.slider_container
+	{
+		height: 370px;
+	}
+}
+
+@media only screen and (max-width: 325px) {
+	.slider_container
+	{
+		height: 320px;
+	}
+}
+
+/************
+	About
+************/
+
+@media (max-width:500px){
+	.about_section_title {
+		text-align:center;
+	}
+	.about_section_title h3{
+		font-size: 1em;
+		line-height: 25px;
+	}
+}
+
+/************
+   Service
+************/
+
+@media (max-width:550px)  {
+	#service{
+		width: 100%;
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	.feature_card_content
+	{
+		height:200px;
+	}
+
+	.icedu-icons{
+		width:120px;
+	}
+
+	.service-text{
+		text-align:center;
+	}
+	.service_modal_text p{
+		font-size:0.8em;
+		color: #000;
+	}
+}
+
+/************
+  Locations
+************/
+
+@media (max-width:550px) {
+	#locations
+	{
+		width: 100%;
+		padding-top: 80px;
+		padding-bottom: 120px;
+		background: #1e91d2;
+	}
+	#overbottom
+	{
+		height:120px;
+		background: #1e91d2;
+	}
+}
+
+/************
+ 	Works
+************/
+
+@media (max-width:550px) {
+	.grid-item
+	{
+		width: 100%;
+		height: calc(50vw / 1);
+		overflow: hidden;
 	}
 }
 
@@ -1696,3 +1804,4 @@
 		margin-top: 8px;
 	}
 }
+

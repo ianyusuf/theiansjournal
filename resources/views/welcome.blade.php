@@ -17,9 +17,9 @@
 
     <div class="home-separator"></div>
 
-    <section class="light" id="mobile-only" style="background: #fd4219">
+    <section class="home" id="mobile-only">
         <div class="home_background">
-            <img src="img/header-m.png" class="img-responsive">
+            <img src="img/header-m.png" class="img-responsive" id="home-header-m">
         </div>
         <div class="about_text_row" style="padding-bottom: 40px">
             <div class="container">

@@ -203,41 +203,6 @@ section
 	height: 550px;
 }
 
-@media only screen and (max-width: 1030px) {
-	.slider_container
-	{
-		height: 400px;
-	}
-}
-
-@media only screen and (max-width: 770px) {
-	.slider_container
-	{
-		height: 750px;
-	}
-}
-
-@media only screen and (max-width: 450px) {
-	.slider_container
-	{
-		height: 440px;
-	}
-}
-
-@media only screen and (max-width: 380px) {
-	.slider_container
-	{
-		height: 400px;
-	}
-}
-
-@media only screen and (max-width: 325px) {
-	.slider_container
-	{
-		height: 340px;
-	}
-}
-
 #hero_slider
 {
 	width: 100% !important;
@@ -439,12 +404,6 @@ section
 .logo
 {
 	width:150px;
-}
-@media (max-width:500px) {
-	#logo
-	{
-		height: 60px;
-	}
 }
 .logo_a
 {
@@ -1234,16 +1193,6 @@ section
 	margin-top: 40px;
 }
 
-@media (max-width:500px){
-	.about_section_title {
-		text-align:center;
-	}
-	.about_section_title h3{
-		font-size: 1em;
-		line-height: 25px;
-	}
-}
-
 /*********************************
 6. Services
 *********************************/
@@ -1436,31 +1385,6 @@ section
 .service_modal_text p{
 	font-size:1em;
 	color: #000;
-}
-
-@media (max-width:550px)  {
-	#service{
-		width: 100%;
-		padding-top: 80px;
-		padding-bottom: 80px;
-	}
-
-	.feature_card_content
-	{
-		height:200px;
-	}
-
-	.icedu-icons{
-		width:120px;
-	}
-
-	.service-text{
-		text-align:center;
-	}
-	.service_modal_text p{
-		font-size:0.8em;
-		color: #000;
-	}
 }
 
 /*********************************
@@ -3373,21 +3297,6 @@ input[type="email"], input[type="password"], input[type="text"]
 	background: #1e91d2;
 }
 
-@media (max-width:550px) {
-	#locations
-	{
-		width: 100%;
-		padding-top: 80px;
-		padding-bottom: 120px;
-		background: #1e91d2;
-	}
-	#overbottom
-	{
-		height:120px;
-		background: #1e91d2;
-	}
-}
-
 .locations {
     background: #fff;
 }
@@ -3828,14 +3737,6 @@ input[type="email"], input[type="password"], input[type="text"]
 	width: 100%;
 	height: calc(50vw / 1.777777777777778);
 	overflow: hidden;
-}
-@media (max-width:550px) {
-	.grid-item
-	{
-		width: 100%;
-		height: calc(50vw / 1);
-		overflow: hidden;
-	}
 }
 .grid-item a
 {
