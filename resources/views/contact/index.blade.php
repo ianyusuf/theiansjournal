@@ -21,7 +21,7 @@
 				<div class="contact_left_row">
 					<div class="contact_text_white">
 						<h3>Address</h3>
-						<h4>ICEDU - Kantorku Coworking Space</h4>
+						<h4>ICEDU</h4>
 						<p>Agro Plaza<br>
 						Jl. H.R. Rasuna Said Kav. X 2-1,<br>
 						Setiabudi, Kuningan Timur<br>
@@ -30,7 +30,7 @@
 				</div>
 				<div class="contact_row">
 					<div class="contact_text_white">
-						<p><b>P. <span></b>+62 2145 6783</span><br>
+						<p><b>P. <span></b>021 5209621 / +6287788001389</span><br>
 						<b>E. <span></b>info@icedu.id</span>
 					</div>
 				</div>

@@ -37,10 +37,10 @@
         <div class="slider_container">
             <div id="myparallaxslider" class="parallaxslider">
                 <div class="slide">
-                    <a href="#" download="img/slider/boston.pdf">
+                    <a href="img/slider/boston.pdf" download>
                         <div class="bgoverlay slider_bg slider_bg_1" data-order="1">
                             <img src="img/slider/slider-1.jpg" class="img-responsive" id="desktop-only">
-                            <img src="img/slider/slider-1m.jpg" class="img-responsive" download="img/slider/boston.pdf" id="mobile-only">
+                            <img src="img/slider/slider-1m.jpg" class="img-responsive" id="mobile-only">
                         </div>
                     </a>
                 </div>

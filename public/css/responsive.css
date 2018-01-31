@@ -121,6 +121,13 @@
 	.icedu-icons{
 		width:120px;
 	}
+	
+	.service_modal_text{
+		cursor: default;
+		padding: 20px 50px;
+		font-size: 1em;
+		text-align: justify;
+	}
 
 	.service-text{
 		text-align:center;
@@ -139,6 +146,9 @@
 		text-transform: uppercase;
 		text-align:center;
 	}
+	.uni_link{
+		font-size:1em;
+	}
 }
 
 @media only screen and (max-width:380px) {
@@ -151,6 +161,21 @@
 		text-transform: uppercase;
 		text-align:center;
 	}
+	.service_modal_text{
+		cursor: default;
+		padding: 20px 45px;
+		font-size: 1em;
+		text-align: justify;
+	}
+	.uni_modal_header {
+	    font-size: 1em;
+	    font-weight: 900;
+	    color: #fd431a;
+	    text-transform: uppercase;
+	}
+	.uni_link{
+		font-size:0.9em;
+	}
 }
 
 @media only screen and (max-width:325px) {
@@ -162,6 +187,21 @@
 		color: #fd431a;
 		text-transform: uppercase;
 		text-align:center;
+	}
+	.service_modal_text{
+		cursor: default;
+		padding: 20px 40px;
+		font-size: 1em;
+		text-align: justify;
+	}
+	.uni_modal_header {
+	    font-size: 0.9em;
+	    font-weight: 900;
+	    color: #fd431a;
+	    text-transform: uppercase;
+	}
+	.uni_link{
+		font-size:0.8em;
 	}
 }
 

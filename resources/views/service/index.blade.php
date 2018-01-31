@@ -74,7 +74,7 @@
 											<p>Study overseas is everybody dreams, we help student to reach their dream by preparing early with many option countries destination: <b>Australia, Canada, China, New Zealand, Switzerland, United Kingdom, United States of America</b> and many more.</p>
 											<p>
 											<b><span style="font-weight:600; color: #fd431a">Benefit study overseas:</span></b>
-												<ul style="list-style-type: square; padding:0 20px; line-height:200%">
+												<ul style="list-style-type: square; padding:0 20px; line-height:200%; font-size: 0.9em;">
 													<li>Experience a new culture</li>
 													<li>Make a friends from around the world</li>
 													<li>Become independent</li>
@@ -190,7 +190,7 @@
 													<button data-toggle="collapse" data-target="#faq" class="button_b" style="margin-top:20px">Frequently Ask Question</button>
 												</center>
 												<div id="faq" class="collapse">
-													<ul style="list-style-type: square; padding:20px 20px; line-height:200%">
+													<ul style="list-style-type: square; padding:20px 20px; line-height:200%; font-size: 0.9em;">
 														<li>Do you have enough information about this course?</li>
 														<li>When will the course start? (January, March or July)?</li>
 														<li>Which universities offer this course?</li>
@@ -208,7 +208,7 @@
 													<button data-toggle="collapse" data-target="#listofstudy" class="button_b" style="margin-top:20px">List Of Study</button>
 												</center>
 												<div id="listofstudy" class="collapse">
-													<ul style="list-style-type: square; padding:20px 20px; line-height:200%">
+													<ul style="list-style-type: square; padding:20px 20px; line-height:200%; font-size: 0.9em;">
 														<li>Accounting</li>
 														<li>Agricultural Science</li>
 														<li>Art & Design</li>
@@ -270,7 +270,7 @@
 									<div class="row">
 										<div class="col-xs-12 service_modal_text">
 											<p>When the student accepted by the university, school or collages overseas, they need to get Visa to enter the country. So we will:
-												<ul style="list-style-type: square; padding:0 20px; line-height:200%">
+												<ul style="list-style-type: square; padding:0 20px; line-height:200%; font-size: 0.9em;">
 													<li>Assist accepted students for the students visa applications</li>
 													<li>Prepare required documents for visa processing</li>
 													<li>Fill in the student data to visa application portal</li>
@@ -453,7 +453,7 @@
 											<p>Study overseas is everybody dreams, we help student to reach their dream by preparing early with many option countries destination: <b>Australia, Canada, China, New Zealand, Switzerland, United Kingdom, United States of America</b> and many more.</p>
 											<p>
 											<b><span style="font-weight:600; color: #fd431a">Benefit study overseas:</span></b>
-												<ul style="list-style-type: square; padding:0 20px; line-height:200%">
+												<ul style="list-style-type: square; padding:0 20px; line-height:200%; font-size: 0.9em;">
 													<li>Experience a new culture</li>
 													<li>Make a friends from around the world</li>
 													<li>Become independent</li>
@@ -571,7 +571,7 @@
 													<button data-toggle="collapse" data-target="#faqm" class="button_b" style="margin-top:20px">Frequently Ask Question</button>
 												</center>
 												<div id="faqm" class="collapse">
-													<ul style="list-style-type: square; padding:20px 20px; line-height:200%">
+													<ul style="list-style-type: square; padding:20px 20px; line-height:200%; font-size: 0.9em;">
 														<li>Do you have enough information about this course?</li>
 														<li>When will the course start? (January, March or July)?</li>
 														<li>Which universities offer this course?</li>
@@ -589,7 +589,7 @@
 													<button data-toggle="collapse" data-target="#listofstudym" class="button_b" style="margin-top:20px">List Of Study</button>
 												</center>
 												<div id="listofstudym" class="collapse">
-													<ul style="list-style-type: square; padding:20px 20px; line-height:200%">
+													<ul style="list-style-type: square; padding:20px 20px; line-height:200%; font-size: 0.9em;">
 														<li>Accounting</li>
 														<li>Agricultural Science</li>
 														<li>Art & Design</li>
@@ -651,7 +651,7 @@
 									<div class="row">
 										<div class="col-xs-12 service_modal_text">
 											<p>When the student accepted by the university, school or collages overseas, they need to get Visa to enter the country. So we will:
-												<ul style="list-style-type: square; padding:0 20px; line-height:200%">
+												<ul style="list-style-type: square; padding:0 20px; line-height:200%; font-size: 0.9em;">
 													<li>Assist accepted students for the students visa applications</li>
 													<li>Prepare required documents for visa processing</li>
 													<li>Fill in the student data to visa application portal</li>

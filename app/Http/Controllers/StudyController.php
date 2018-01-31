@@ -21,6 +21,11 @@ class StudyController extends Controller
 		return view('overseas.canada');
 	}
 
+    public function holland()
+	{
+		return view('overseas.holland');
+	}
+
     public function switzerland()
 	{
 		return view('overseas.switzerland');

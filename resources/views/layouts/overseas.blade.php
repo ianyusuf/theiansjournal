@@ -19,6 +19,14 @@
 	<link rel='stylesheet' href="{{ asset('css/bootstrap/bootstrap.css') }}" type='text/css' media='all' />
 	<link rel='stylesheet' href="{{ asset('css/style.css') }}" type='text/css' media='all' />
 	<link rel='stylesheet' href="{{ asset('css/responsive.css') }}" type='text/css' media='all' />
+	<link rel='stylesheet' href="{{ asset('plugins/ionicons-2.0.1/ionicons.css') }}" type='text/css' media='all' />
+	<link rel='stylesheet' href="{{ asset('plugins/font-awesome-4.7.0/css/font-awesome.min.css') }}" type='text/css' media='all' />
+	<link rel='stylesheet' href="{{ asset('plugins/OwlCarousel2-2.2.1/owl.carousel.css') }}" type='text/css' media='all' />
+	<link rel='stylesheet' href="{{ asset('plugins/OwlCarousel2-2.2.1/owl.theme.default.css') }}" type='text/css' media='all' />
+	<link rel='stylesheet' href="{{ asset('plugins/OwlCarousel2-2.2.1/animate.css') }}" type='text/css' media='all' />
+	<link rel='stylesheet' href="{{ asset('plugins/nivo/nivo-slider.css') }}" type='text/css' media='all' />
+	<link rel='stylesheet' href="{{ asset('plugins/magnific-popup/magnific-popup.css') }}" type='text/css' media='all' />
+	<link rel='stylesheet' href="{{ asset('plugins/parallaxslider/parallaxslider.css') }}" type='text/css' media='all' />
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113350712-1"></script>

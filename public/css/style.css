@@ -1378,12 +1378,12 @@ section
 }
 .service_modal_text{
 	cursor: default;
-	padding: 20px 40px;
+	padding: 20px 60px;
 	font-size: 1em;
 	text-align: justify;
 }
 .service_modal_text p{
-	font-size:1em;
+	font-size:0.9em;
 	color: #000;
 }
 

@@ -59,16 +59,18 @@
                                 </span>
                             </div>
                         </a>
-                        <div class="hotspot-item" data-top="32%" data-left="52%" id="desktop-only">
-                            <span class="hotspot" data-toggle="tooltip" data-placement="top" title="NETHERLANDS">
-                                <span class="hotspot-point"></span>                            
-                            </span>
-                        </div>
-                        <div class="hotspot-item" data-top="26%" data-left="50%" id="mobile-only">
-                            <span class="hotspot" data-toggle="tooltip" data-placement="top" title="NETHERLANDS">
-                                <span class="hotspot-point"></span>                            
-                            </span>
-                        </div>
+                        <a href="{{ url('overseas/holland') }}">
+                            <div class="hotspot-item" data-top="32%" data-left="52%" id="desktop-only">
+                                <span class="hotspot" data-toggle="tooltip" data-placement="top" title="HOLLAND">
+                                    <span class="hotspot-point"></span>                            
+                                </span>
+                            </div>
+                            <div class="hotspot-item" data-top="26%" data-left="50%" id="mobile-only">
+                                <span class="hotspot" data-toggle="tooltip" data-placement="top" title="HOLLAND">
+                                    <span class="hotspot-point"></span>                            
+                                </span>
+                            </div>
+                        </a>
                         <a href="{{ url('overseas/switzerland') }}">
                             <div class="hotspot-item" data-top="28%" data-left="62%" id="desktop-only">
                                 <span class="hotspot" data-toggle="tooltip" data-placement="top" title="SWITZERLAND">
