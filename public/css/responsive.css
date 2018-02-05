@@ -155,7 +155,7 @@
 	.service_modal_header
 	{
 		margin-top: 15px;
-		font-size: 1.3em;
+		font-size: 1.2em!important;
 		font-weight: 900;
 		color: #fd431a;
 		text-transform: uppercase;
@@ -182,7 +182,7 @@
 	.service_modal_header
 	{
 		margin-top: 15px;
-		font-size: 1em;
+		font-size: 1em!important;
 		font-weight: 900;
 		color: #fd431a;
 		text-transform: uppercase;
@@ -193,6 +193,9 @@
 		padding: 20px 40px;
 		font-size: 1em;
 		text-align: justify;
+	}
+	.service-text{
+		font-size: 0.8em!important;
 	}
 	.uni_modal_header {
 	    font-size: 0.9em;
@@ -216,6 +219,11 @@
 		padding-top: 80px;
 		padding-bottom: 120px;
 		background: #1e91d2;
+	}
+	#work
+	{
+		padding-top: 80px;
+		padding-bottom: 120px;
 	}
 	#overbottom
 	{

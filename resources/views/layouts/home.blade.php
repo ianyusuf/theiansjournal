@@ -5,8 +5,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ICEDU Indonesia</title>
-	<meta name="keywords" content="ICEDU Indonesia, International Education Service, USA, AUSTRALIA, CHINA, ENGLAND, CANADA, MALAYSIA, NEW ZEALAND, SINGAPORE, SWITZERLAND" />
-	<meta name="description" content="Provide international education service to: USA AUSTRALIA CHINA ENGLAND CANADA MALAYSIA NEW ZEALAND SINGAPORE SWITZERLAND" />
+	<meta name="keywords" content="ICEDU, Indonesia, International Education Service, USA, AUSTRALIA, CHINA, ENGLAND, CANADA, MALAYSIA, NEW ZEALAND, SINGAPORE, SWITZERLAND" />
+	<meta name="description" content="Provide international education service to: USA, AUSTRALIA, CHINA, ENGLAND, CANADA, MALAYSIA, NEW ZEALAND, SINGAPORE, SWITZERLAND" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="generator" content="ICEDU Indonesia International Education Service" />
 	<meta name="googlebot" content="all" />
