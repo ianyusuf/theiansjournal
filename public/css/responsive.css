@@ -26,10 +26,17 @@
 	HOME
 ************/
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1380px) {
 	.slider_container
 	{
-		height: 400px;
+		height: 520px;
+	}
+}
+
+@media only screen and (max-width: 1025px) {
+	.slider_container
+	{
+		height: 390px;
 	}
 }
 

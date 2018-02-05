@@ -41,7 +41,7 @@
 
 <body>
 	<div class="super_container">
-		<header class="header" id="desktop-only">
+		<header class="header_home" id="desktop-only">
 			<div class="header_content_home">
 				<div class="logo_container">
 					<a href="{{ url('/') }}">
