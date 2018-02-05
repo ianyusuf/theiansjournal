@@ -5,8 +5,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ICEDU Indonesia</title>
-	<meta name="keywords" content="ICEDU Indonesia, International Education Service, USA, AUSTRALIA, CHINA, ENGLAND, CANADA, MALAYSIA, NEW ZEALAND, SINGAPORE, SWITZERLAND" />
-	<meta name="description" content="Provide international education service to: USA AUSTRALIA CHINA ENGLAND CANADA MALAYSIA NEW ZEALAND SINGAPORE SWITZERLAND" />
+	<meta name="keywords" content="ICEDU, Indonesia, International Education Service, USA, AUSTRALIA, CHINA, ENGLAND, CANADA, MALAYSIA, NEW ZEALAND, SINGAPORE, SWITZERLAND" />
+	<meta name="description" content="Provide international education service to: USA, AUSTRALIA, CHINA, ENGLAND, CANADA, MALAYSIA, NEW ZEALAND, SINGAPORE, SWITZERLAND" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="generator" content="ICEDU Indonesia International Education Service" />
 	<meta name="googlebot" content="all" />
@@ -41,7 +41,7 @@
 
 <body>
 	<div class="super_container">
-		<header class="header" id="desktop-only">
+		<header class="header_home" id="desktop-only">
 			<div class="header_content_home">
 				<div class="logo_container">
 					<a href="{{ url('/') }}">
