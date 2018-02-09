@@ -187,7 +187,7 @@
 											As personal preferences and university courses vary significantly, it is not possible to provide a comprehensive guide to help you select a suitable course.<br>
 											However, in making your decision, you must be able to respond with confidence to the following:
 												<center>
-													<button data-toggle="collapse" data-target="#faq" class="button_b" style="margin-top:20px">Frequently Ask Question</button>
+													<a data-toggle="collapse" data-target="#faq" class="dropdown_service" style="margin-top:20px">Frequently Ask Question &#x25BC;</a>
 												</center>
 												<div id="faq" class="collapse">
 													<ul style="list-style-type: square; padding:20px 20px; line-height:200%; font-size: 0.9em;">
@@ -202,10 +202,8 @@
 													</ul>
 												</div>
 												<br>
-												List of Study that you might be interested:
-												<br>
 												<center>
-													<button data-toggle="collapse" data-target="#listofstudy" class="button_b" style="margin-top:20px">List Of Study</button>
+													<a data-toggle="collapse" data-target="#listofstudy" class="dropdown_service" style="margin-top:20px">List Of Study &#x25BC;</a>
 												</center>
 												<div id="listofstudy" class="collapse">
 													<ul style="list-style-type: square; padding:20px 20px; line-height:200%; font-size: 0.9em;">
@@ -568,7 +566,7 @@
 											As personal preferences and university courses vary significantly, it is not possible to provide a comprehensive guide to help you select a suitable course.<br>
 											However, in making your decision, you must be able to respond with confidence to the following:
 												<center>
-													<button data-toggle="collapse" data-target="#faqm" class="button_b" style="margin-top:20px">Frequently Ask Question</button>
+													<a data-toggle="collapse" data-target="#faqm" class="dropdown_service" style="margin-top:20px">Frequently Ask Question &#x25BC;</a>
 												</center>
 												<div id="faqm" class="collapse">
 													<ul style="list-style-type: square; padding:20px 20px; line-height:200%; font-size: 0.9em;">
@@ -583,10 +581,8 @@
 													</ul>
 												</div>
 												<br>
-												List of Study that you might be interested:
-												<br>
 												<center>
-													<button data-toggle="collapse" data-target="#listofstudym" class="button_b" style="margin-top:20px">List Of Study</button>
+													<a data-toggle="collapse" data-target="#listofstudym" class="dropdown_service" style="margin-top:20px">List Of Study &#x25BC;</a>
 												</center>
 												<div id="listofstudym" class="collapse">
 													<ul style="list-style-type: square; padding:20px 20px; line-height:200%; font-size: 0.9em;">

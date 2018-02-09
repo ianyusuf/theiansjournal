@@ -25,7 +25,7 @@
             <div class="container">
                 <div class="col-md-12">
                     <div class="about_section_title" style="text-align: right;">
-                        <h3 style="font-size: 1.5em; line-height: 30px;">We Prepare & Guide International Students For Study Abroad</h3>
+                        <h3 style="font-size: 1.5em; line-height: 30px; font-weight: 900;">We Prepare & Guide International Students For Study Abroad</h3>
                         <a class="button_a about_link_button scroll_to_button trans_200" style="margin-top:20px" href="{{ url('service') }}">Learn More</a>
                     </div>
                 </div>

@@ -34,7 +34,7 @@
 				</div>
 				<div class="col-md-8">
 					<img src="img/about/university.jpg" class="img-responsive" width="100%">
-					<p style="margin-top:10px; text-align:center; font-weight:900; color: #fff;">The Bradfield Centre, Cambridge Science Park</p>
+					<p style="margin-top:10px; text-align:center; font-style: italic; font-size: 0.9em; color: #fff;">The Bradfield Centre, Cambridge Science Park</p>
 				</div>
 			</div>
 			<div class="about_text_row">

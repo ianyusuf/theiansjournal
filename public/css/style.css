@@ -1365,7 +1365,7 @@ section
 	font-size: 1em;
 	font-weight: 900;
 	text-transform: uppercase;
-	color: #f05234;
+	color: #0290ce;
 	text-align:center;
 }
 .service_modal_header{
@@ -1400,7 +1400,10 @@ section
 	font-size:0.9em;
 	color: #000;
 }
-
+.dropdown_service{
+	cursor: pointer;
+	font-weight: 900;
+}
 /*********************************
 7. About Extra
 *********************************/
