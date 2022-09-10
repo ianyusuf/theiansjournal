@@ -21,5 +21,6 @@ Route::get('overseas/holland', 'StudyController@holland');
 Route::get('overseas/switzerland', 'StudyController@switzerland');
 Route::get('overseas/uk', 'StudyController@uk');
 Route::get('overseas/usa', 'StudyController@usa');
+Route::get('gallery', 'GalleryController@showContent');
 Route::get('contact', 'ContactController@showContent');
 Route::post('email', 'ContactController@sendEmail');

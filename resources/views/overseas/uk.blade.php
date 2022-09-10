@@ -34,7 +34,7 @@
                         <div class="grid-item">
                             <a data-toggle="modal" data-target="#modal-1">
                                 <span class="project_background" style="background-image: url('../img/study/uk/bc.jpg')"></span>
-                                <h4>Bellerby College</h4>
+                                <h4>Bellerbys College</h4>
                             </a>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-10 col-xs-offset-1">
-                            <h2 class="uni_modal_header">Bellerby College</h2>
+                            <h2 class="uni_modal_header">Bellerbys College</h2>
                         </div>
                     </div>
                     <div class="row">

@@ -5,8 +5,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ICEDU | @yield('title')</title>
-	<meta name="keywords" content="@yield('title'), ICEDU, Indonesia, International Education Service, USA, AUSTRALIA, CHINA, ENGLAND, CANADA, MALAYSIA, NEW ZEALAND, SINGAPORE, SWITZERLAND" />
-	<meta name="description" content="Provide international education service to: USA, AUSTRALIA, CHINA, ENGLAND, CANADA, MALAYSIA, NEW ZEALAND, SINGAPORE, SWITZERLAND" />
+	<meta name="keywords" content="@yield('title'), ICEDU, Indonesia, International Education Service, USA, Australia, China, UK, Canada, Malaysia, New Zealand, Singapore, Switzerland" />
+	<meta name="description" content="Provide international education service to: USA, Australia, China, UK, Canada, Malaysia, New Zealand, Singapore, Switzerland" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="generator" content="International Education Service" />
 	<meta name="googlebot" content="all" />
@@ -56,6 +56,7 @@
 						<li class="link-braces"><a href="{{ url('about') }}">about us</a></li>
 						<li class="link-braces"><a href="{{ url('service') }}">service</a></li>
 						<li class="link-braces"><a href="{{ url('overseas') }}">study overseas</a></li>
+						<li class="link-braces"><a href="{{ url('gallery') }}">gallery</a></li>
 						<li class="link-braces"><a href="{{ url('contact') }}">contact us</a></li>
 					</ul>
 				</div>
@@ -74,13 +75,87 @@
 		@yield('content')
 
 		<div id="footer">
-			<div class="container">
+			<div class="container" id="desktop-only">
 				<div class="row">
-					<div class="col-lg-12">
-						<p class="footer_text_center">&copy; 2017 PT. Inti Cemerlang Edukasi</p>
+					<div class="col-lg-6">
+						<p class="footer_text">
+							<div class="row">
+								<div class="contact_text_white">
+									<p class="footer_text" style="font-size:1.2em;font-weight:600;">ICEDU<p>
+									<p class="footer_text">Agro Plaza<br>
+									Jl. H.R. Rasuna Said Kav. X 2-1,
+									Setiabudi, Kuningan Timur<br>
+									Jakarta 12950, Indonesia</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="contact_text_white">
+									<p class="footer_text"><b>P. <span></b>021 5209621 / +6287788001389</span><br>
+									<b class="footer_text">E. <span></b>info@icedu.id</span>
+								</div>
+							</div>
+						</p>
+					</div>
+					<div class="col-lg-6">
+						<p class="footer_text_right">Copyright © PT. Inti Cemerlang Edukasi 2017<br>
+						All rights reserved.<br><br><br>
+							
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+						<a class="contact_socmed_footer" href="https://www.instagram.com/iceduindo/" target="_blank">
+							<span style="margin-left: 10px"><b>@iceduindo</b></span>
+						</a> 
+						&nbsp;|&nbsp; 
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+						<a class="contact_socmed_footer" href="https://www.facebook.com/IC-Education-131216864249341/" target="_blank">
+							<span style="margin-left: 10px"><b>IC Education</b></span>
+						</a>
 					</div>
 				</div>
 			</div>	
+
+			<div class="container" id="mobile-only">
+				<div class="container">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12">
+								<p class="footer_text_center">
+									<div class="row">
+										<div class="contact_text_white">
+											<p class="footer_text_center" style="font-size:1.2em;font-weight:600;">ICEDU<p>
+											<p class="footer_text">Agro Plaza<br>
+											Jl. H.R. Rasuna Said Kav. X 2-1,
+											Setiabudi, Kuningan Timur<br>
+											Jakarta 12950, Indonesia</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="contact_text_white">
+											<p class="footer_text"><b>P. <span></b>021 5209621 / +6287788001389</span><br>
+											<b class="footer_text">E. <span></b>info@icedu.id</span>
+										</div>
+									</div>
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<p class="footer_text_center">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+								<a class="contact_socmed_footer" href="https://www.instagram.com/iceduindo/" target="_blank">
+									<span style="margin-left: 10px"><b>@iceduindo</b></span>
+								</a> 
+								&nbsp;|&nbsp; 
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<a class="contact_socmed_footer" href="https://www.facebook.com/IC-Education-131216864249341/" target="_blank">
+									<span style="margin-left: 10px"><b>IC Education</b></span>
+								</a><br><br>
+
+								Copyright © PT. Inti Cemerlang Edukasi 2017<br>
+								All rights reserved.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		
 		<div class="fs_menu_overlay">

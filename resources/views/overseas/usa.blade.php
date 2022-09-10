@@ -457,11 +457,6 @@
                             Ten colleges, two schools, an early admissions math and science academy for exceptional high-school-age students from across the state, and a library system comprise the university core.<br><br>With 103 bachelor's, 86 master's and 38 doctoral degrees, it's no wonder UNT is the leading university in the North Texas region.</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xs-10 col-xs-offset-1">
-                            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/evEV2sshJos' frameborder='0' allowfullscreen></iframe></div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

@@ -182,11 +182,6 @@
                             <p>Taylors College is a provider of university preparation programs in Australia and New Zealand. Established in Melbourne, Australia in 1920, Taylors College provides secondary school education (Year 10 - Year 12) and specialized University Foundation programs in partnership with some of the leading universities in Australia and New Zealand. The college has campuses in Sydney, Perth and Auckland. Taylors College campuses are located in the major cities in Australia and New Zealand: Sydney, Perth and Auckland.</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xs-10 col-xs-offset-1">
-                            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/ghTP8HeZZt8' frameborder='0' allowfullscreen></iframe></div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
