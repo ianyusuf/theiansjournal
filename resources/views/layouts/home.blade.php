@@ -39,7 +39,7 @@
 						<div class="logo col-md-2">
 							<div class="logo-image">
 								<a href="index.html">
-									<img src="img/tj-logo.png" class="image-logo" alt="logo" />
+									<img src="img/tj-logo-horizontal.png" class="image-logo" alt="logo" />
 								</a>
 							</div>
 						</div>
@@ -53,7 +53,7 @@
 										<a href="#index.html">Journal</a>
 										<ul class="sub-menu">
 											<li>
-												<a href="#index.html">Basic Tennis Guide</a>
+												<a href="#index.html">Know The Basic</a>
 											</li>
 											<li>
 												<a href="#index.html">Pick Your Racket</a>
@@ -88,14 +88,11 @@
 									<li class="">
 										<a href="#index.html" aria-current="page">Home</a>
 									</li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page">
-										<a href="#index.html">Journal</a>
-									</li>
 									<li class="menu-item-has-children">
-										<a href="#index.html">News</a>
+										<a href="#index.html">Journal</a>
 										<ul class="sub-menu">
 											<li class="menu-item menu-item-type-post_type">
-												<a href="#index.html">Basic Tennis Guide</a>
+												<a href="#index.html">Know The Basic</a>
 											</li>
 											<li class="menu-item menu-item-type-post_type">
 												<a href="#index.html">Pick Your Racket</a>
