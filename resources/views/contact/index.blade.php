@@ -1,123 +1,174 @@
-@extends('layouts.app')
+@extends('layouts.home')
 
 @section('title')
-    Contact
+IAN'S | CONTACT
 @endsection
 
 @section('content')
-    <section id="contact" class="light">
-		<div class="contact_form_background"></div>
-		<div class="row">
-			<div class="container">
-				<div class="col-md-2 col-md-offset-10">
-					<div class="section_title">
-						<h3>contact us</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row" id="contact_bg">
-			<div class="col-md-4" id="contact_left">
-				<div class="contact_left_row">
-					<div class="contact_text_white">
-						<h3>Address</h3>
-						<h4>ICEDU</h4>
-						<p>Agro Plaza<br>
-						Jl. H.R. Rasuna Said Kav. X 2-1,<br>
-						Setiabudi, Kuningan Timur<br>
-						Jakarta 12950, Indonesia</p>
-					</div>
-				</div>
-				<div class="contact_row">
-					<div class="contact_text_white">
-						<p><b>P. <span></b>021 5209621 / +6287788001389</span><br>
-						<b>E. <span></b>info@icedu.id</span>
-					</div>
-				</div>
-				<div class="contact_row">
-					<div class="contact_text_white">
-						<p>
-							<i class="fa fa-instagram" aria-hidden="true"></i>
-							<a class="contact_socmed" href="https://www.instagram.com/iceduindo/" target="_blank">
-								<span><b>@iceduindo</b></span>
-							</a>
-						</p>
-						<p>
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-							<a class="contact_socmed" href="https://www.facebook.com/IC-Education-131216864249341/" target="_blank">
-								<span><b>IC Education</b></span>
-							</a>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-8" id="contact_right">
-				<div class="contact_form_container">
-					<div class="contact_text">
-						<h3>SAY HELLO!</h3>
-					</div>
-					<form action="{{ url('email') }}" id="contact-form" method="post">
-						<input name="_token" type="hidden" value="{{ csrf_token() }}">
-						<div class="controls">
-							<div class="row">
-								<div class="col-sm-8">
-									<div class="form-group">
-										<div class="name_focus">Name</div>
-										<input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name..." required="required" data-error="Name is required.">
-										<div class="help-block with-errors contact_errors"></div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-8">
-									<div class="form-group">
-										<div class="email_focus">Email</div>
-										<input id="form_email" type="email" name="email" class="form-control" placeholder="Fill with your email..." required="required" data-error="Valid email is required.">
-										<div class="help-block with-errors contact_errors"></div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-8">
-									<div class="form-group">
-										<div class="tel_focus">Phone</div>
-										<input id="form_tel" type="text" name="phone" class="form-control" placeholder="Input your phone number..." required="required" data-error="Valid phone number is required.">
-										<div class="help-block with-errors contact_errors"></div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-12">
-									<div class="form-group">
-										<textarea id="form_message" type="text" name="message" class="form-control" placeholder="Your message here..." rows="4" required data-error="Please, leave us a message."></textarea>
-										<div class="help-block with-errors contact_errors"></div>
-									</div>
-								</div>
-							</div>
-							<button type="submit" class="button_b button_contact" value="Submit">send</button>
-							@if(session()->has('message'))
-							    <div class="alert alert-success">
-							        {{ session()->get('message') }}
-							    </div>
-							@endif
-						</div>
-					</form>
-				</div>
-				<div class="contact_row" style="margin-top:80px;">
-					<div class="contact_container">
-						<div class="row">
-							<div class="col-sm-12">
-								<div class="contact_text">
-									<h3>FIND US</h3>
-								</div>
-							</div>
-						</div>
-						<div class="maps-row">
-							<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2621797722254!2d106.83162831463812!3d-6.229124995490884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3ee5ccc3a95%3A0x2e060c93c21c1d18!2sAgro+Plaza!5e0!3m2!1sen!2sid!4v1513256094012' width='100%' height='450' frameborder='0' style='border:0' allowfullscreen></iframe></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-@endsection
+    <link rel="icon" type="image/ico" href="favicon.png" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+</head>
+
+<body class="hidden hidden-ball hero-below-caption smooth-scroll uppercase-text">
+    <main>
+        <div class="cd-index cd-main-content">
+            <div id="page-content" class="light-content" data-bgcolor="#222">
+                <header class="classic-menu invert-header" data-menucolor="#222">
+                    <div id="header-container">
+                        <div id="logo" class="hide-ball">
+                            <a href="{{ url('/') }}">
+                            <img class="black-logo" src="img/logo.png" alt="Logo">
+                            <img class="white-logo" src="img/logo-white.png" alt="Logo">
+                            </a>
+                        </div>
+                        <nav>
+                            <div class="nav-height">
+                                <div class="outer">
+                                    <div class="inner">
+                                        <ul data-breakpoint="1025" class="flexnav">
+                                            <li class="link menu-timeline">
+                                                <a href="{{ url('/') }}">
+                                                    <div class="before-span">
+                                                        <span data-hover="Home">Home</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="link menu-timeline">
+                                                <a href="{{ url('works') }}">
+                                                    <div class="before-span">
+                                                        <span data-hover="Works">Works</span>
+                                                    </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="{{ url('works/xlaxiata') }}">XL AXIATA</a>
+                                                    </li>                                            
+                                                    <li>
+                                                        <a href="{{ url('works/lokalewedding') }}">LOKALE WEDDING</a>
+                                                    </li>                                            
+                                                    <li>
+                                                        <a href="{{ url('works/icedu') }}">ICEDU INDONESIA</a>
+                                                    </li>                                            
+                                                    <li>
+                                                        <a href="{{ url('works/gigs') }}">GIGS INDIE MUSIC</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="link menu-timeline">
+                                                <a href="{{ url('about') }}">
+                                                    <div class="before-span">
+                                                        <span data-hover="About">About</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="link menu-timeline">
+                                                <a href="{{ url('contact') }}">
+                                                    <div class="before-span">
+                                                        <span data-hover="Contact">Contact</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="button-wrap right menu burger-lines">
+                            <div class="icon-wrap parallax-wrap">
+                                <div class="button-icon parallax-element">
+                                    <div id="burger-wrapper">
+                                        <div id="menu-burger">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-text sticky right">
+                                <span data-hover="Menu">Menu</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <div id="content-scroll">
+                    <div id="main">
+                        <div id="hero" class="half-page">
+                            <div id="hero-styles">
+                                <div id="hero-caption" class="content-full-width parallax-scroll-caption">
+                                    <div class="inner">
+                                        <div class="hero-title-wrapper">
+                                            <h1 class="hero-title">
+                                                <span>Get</span>
+                                                <span>In Touch</span>
+                                            </h1>
+                                        </div>                                    
+                                    </div>
+                                </div>
+                                <div id="hero-footer">
+                                    <div class="hero-footer-left">
+                                        <div class="button-wrap right scroll-down">
+                                            <div class="icon-wrap parallax-wrap">
+                                                <div class="button-icon parallax-element">
+                                                    <i class="arrow-icon-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="button-text sticky right"><span data-hover="Scroll to Explore">Scroll to Explore</span></div> 
+                                        </div>
+                                    </div>
+                                    <div class="hero-footer-right">
+                                        <div id="info-text">HADYANYUSUF@GMAIL.COM</div>
+                                    </div>
+                                </div>                                   
+                            </div>
+                        </div>
+
+                        <div id="main-content">
+                            <div id="main-page-content">
+                                <div class="content-row row_padding_top row_padding_bottom light-section dark-content change-header-color" data-bgcolor="#eee">
+                                    <hr><hr><hr>
+                                    <div class="one_third">
+                                        <h3 class="has-mask-fill no-margins">Let's Talk</h3>
+                                    </div>
+                                    
+                                    <div class="two_third last">
+                                        <div id="contact-formular">
+                                            <div id="message"></div>
+                                            <form method="post" action="http://rescena.com/contact.php" name="contactform" id="contactform">                             
+                                                <div class="name-box has-animation" data-delay="100">        
+                                                    <input name="name" type="text" id="name" size="30" value="" placeholder="What's Your Name">
+                                                    <label class="input_label"></label>
+                                                </div>                                                        
+                                                <div class="email-box has-animation" data-delay="150">
+                                                    <input name="email" type="text" id="email" size="30" value="" placeholder="Your Email">
+                                                    <label class="input_label"></label>
+                                                </div>                            
+                                                <div class="message-box has-animation" data-delay="100">
+                                                    <textarea name="comments" cols="80" rows="8" id="comments" placeholder="Message Me" ></textarea>
+                                                </div>
+                                                
+                                                <div class="verify-box has-animation" data-delay="100">                                        
+                                                    <ul class="verify-sum">
+                                                        <li>1</li>
+                                                        <li>+</li>
+                                                        <li>3</li>
+                                                        <li>=</li>
+                                                    </ul>
+                                                    <input name="verify" type="text" id="verify" size="4" value=""/>
+                                                    <p class="required"><span>*</span> Captcha Validation</p>
+                                                </div>
+                                                                                
+                                                <div class="button-box has-animation" data-delay="100">             
+                                                    <div class="clapat-button-wrap parallax-wrap hide-ball">
+                                                        <div class="clapat-button parallax-element">
+                                                            <div class="button-border rounded parallax-element-second"><input type="submit" class="send_message" id="submit" value="Send Mail" /></div>
+                                                        </div>
+                                                    </div> 
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>

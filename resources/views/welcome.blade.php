@@ -1,590 +1,399 @@
 @extends('layouts.home')
 
 @section('title')
-    Home
+    THE IAN'S JOURNAL
 @endsection
 
 @section('content')
-    <div id="main" class="site-main clearfix">
-        <!-- HEADER SECTION
-        ============================================= -->
-        <div class="home-intro clearfix">
-            <div id="slider" class="home-slider fullscreen clearfix">
-                <div id="overlay"></div>
-                <div class="header-section" style="background-image: url(img/slider/slider1.jpg); height: 100%">
-            </div>
-            <header class="header-title">
-                <h2>YOU ONLY LIVE ONCE, BUT YOU GET TO SERVE TWICE</h2>
-                <div class="header-button">
-                    <a class="button button-white" href="#index.html">Book Your Court</a>
-                </div>
-            </header>
-        </div>
-        <!-- HEADER END
-        ============================================= -->
+    <link rel="icon" type="image/ico" href="favicon.png" />
+    <link href="{{ asset('style.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/all.min.css') }}" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+</head>
 
-        <!-- JOURNAL START
-        ============================================= -->
-        <div class="section-white-padding clearfix">
-            <div class="blog_post_preview">
-                <article>
-                    <div class="article-image">
-                        <span class="article-gradient" style="background: #008566"></span>
-                        <img alt="" src="img/journal/journal-home.jpg">
-                    </div>
-                    <div class="article-text">
-                        <div class="article-text--inner">
-                            <h3 class="article-title-text">Tennis Journal / About Us</h3>
-                            <div class="mobile-none">
-                                <span class="article-title-desc-span">Kumpulan jurnal tennis dari raket<br></span>
-                                <span class="article-title-desc-span">pakaian, sampai ke equipment.<br></span>
-                                <span class="article-title-desc-span">Mempertajam pukulan anda<br></span>
-                                <span class="article-title-desc-span">dari servis sampai lob.</span>
-                            </div>
-
-                            <div class="desktop-none">
-                                <span class="article-title-desc-span">Kumpulan jurnal tennis dari raket pakaian, sampai ke equipment. Mempertajam pukulan anda dari servis sampai lob.</span>
-                            </div>
-
-                            <div class="article-button basic-button mobile-none">
-                                <a class="info-button button-normal" href="#index.html">Book Your Court</a>
-                            </div>
-                            <div class="basic-button desktop-none">
-                                <a class="info-button button-white" href="#index.html">View All Journal</a>
-                            </div>
+<body class="hidden hidden-ball hero-below-caption smooth-scroll uppercase-text">
+    <main>
+        <div class="cd-index cd-main-content">
+            <div id="page-content" class="light-content" data-bgcolor="#222">
+                <header class="classic-menu invert-header" data-menucolor="#222">
+                    <div id="header-container">
+                        <div id="logo" class="hide-ball">
+                            <a href="{{ url('/') }}">
+                            <img class="black-logo" src="img/logo.png" alt="Logo">
+                            <img class="white-logo" src="img/logo-white.png" alt="Logo">
+                            </a>
                         </div>
-                    </div>
-                </article>
-            </div>
-        </div>
-        <!-- JOURNAL END -->
-
-        <!-- COURT SECTION
-        ============================================= -->
-        <div class="section-padding court-section clearfix" style="background-image: url(img/court/court-bg-overlay.jpg);">
-            <div class="container">
-                <div class="court-desc clearfix">
-                    <div class="row">
-                        <div class="latest-post-header clearfix">
-                            <div class="col-md-8">
-                                <h2 class="court-title">Court</h2>
-                                <!-- <h2 class="court-title">court</h2> -->
-                                <!-- <div class="desc-text">
-                                    <p>Porttitor suscipit. Quisque justo tortor, convallis id elit vitae, posuere ullamcorper ante. Sed in magna viverra, fermentum arcu sit amet, porttitor nulla. Vestibulum vestibulum sem neque. Mauris varius porttitor suscipit. Quisque justo tortor, convallis id elit vitae.</p>
-                                </div> -->
-                            </div>
-                            <div class="court-button mobile-none">
-                                <a href="#index.html" class="button button-white button-top">Book Your Court</a>
-                                <!-- <a href="#index.html" class="button button-white button-top">Book Your court</a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="court-wrap">
-                    <div class="row">
-                        <div class="the-court col-md-4">
-                            <div class="court-image-wrap">
-                                <a href="#index.html">
-                                    <div class="court-image">
-                                        <img srcset="img/court/gbk.jpg"/>
-                                    </div>
-                                    <div class="court-detail">
-                                        <h4 class="court-name">Gelora Bung Karno</h4>
-                                        <span class="court-position">Jakarta Selatan</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="the-court col-md-4">
-                            <div class="court-image-wrap">
-                                <a href="#index.html">
-                                    <div class="court-image">
-                                        <img srcset="img/court/citos.jpg"/>
-                                    </div>
-                                    <div class="court-detail">
-                                        <h4 class="court-name">Cilandak Town Square</h4>
-                                        <span class="court-position">Jakarta Selatan</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="the-court col-md-4">
-                            <div class="court-image-wrap">
-                                <a href="#index.html">
-                                    <div class="court-image">
-                                        <img srcset="img/court/tanjung-mas-raya.jpg"/>
-                                    </div>
-                                    <div class="court-detail">
-                                        <h4 class="court-name">Tanjung Mas Raya</h4>
-                                        <span class="court-position">Jakarta Selatan</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="court-desc-mobile desktop-none">
-                    <a href="#index.html" class="button button-white button-top">Book Your Court</a>
-                    <!-- <a href="#index.html" class="button button-white button-top">Book Your court</a> -->
-                </div>
-            </div>
-        </div>
-        <!-- COURT SECTION END
-        ============================================= -->
-
-        <!-- COMMUNITY SECTION
-	    ============================================= -->
-        <div class="section-white-padding clearfix">
-            <div class="community_post_preview">
-                <article>
-                    <div class="article-image">
-                        <span class="article-gradient" style="background: #000"></span>
-                        <img alt="" src="img/community/community-home.jpg">
-                    </div>
-                    <div class="article-text">
-                        <div class="article-text--inner">
-                            <h3 class="article-title-text">Tennis Journal / Community</h3>
-                            <div class="mobile-none">
-                                <span class="article-title-desc-span">Berhubungan dengan sesama<br></span>
-                                <span class="article-title-desc-span">pemain, berbagi momen dan<br></span>
-                                <span class="article-title-desc-span">rayakan kemenangan bersama<br></span>
-                                <span class="article-title-desc-span">dengan komunitasmu.</span>
-                            </div>
-
-                            <div class="desktop-none">
-                                <span class="article-title-desc-span">Berhubungan dengan sesama pemain, berbagi momen dan rayakan kemenangan bersama dengan komunitasmu.</span>
-                            </div>
-
-                            <div class="article-button basic-button mobile-none">
-                                <a class="info-button button-normal" href="#index.html">View All Community</a>
-                            </div>
-                            <div class="basic-button desktop-none">
-                                <a class="info-button button-white" href="#index.html">View All Community</a>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </div>
-            <!-- <div class="container">
-                <div class="row">
-                    <div class="endorse-section clearfix">
-                        <div class="container">
-                            <div class="endorse-wrap">
-                                <div class="endorse-item">
-                                    <a href="#index.html">
-                                        <img src="img/community/tennis-troops.jpg" alt="endorse" />
-                                    </a>
-                                </div>
-                                <div class="endorse-item">
-                                    <a href="#index.html">
-                                        <img src="img/community/tennis-kuy.jpg" alt="endorse" />
-                                    </a>
-                                </div>
-                                <div class="endorse-item">
-                                    <a href="#index.html">
-                                        <img src="img/community/pejaten-tennis-club.jpg" alt="endorse" />
-                                    </a>
-                                </div>
-                                <div class="endorse-item">
-                                    <a href="#index.html">
-                                        <img src="img/community/tennis-launcher.jpg" alt="endorse" />
-                                    </a>
-                                </div>
-                                <div class="endorse-item">
-                                    <a href="#index.html">
-                                        <img src="img/community/bhm-tennis-club.jpg" alt="endorse" />
-                                    </a>
-                                </div>
-                                <div class="endorse-item">
-                                    <a href="#index.html">
-                                        <img src="img/community/vamos-tennis.jpg" alt="endorse" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-        
-        
-        <!-- COMMUNITY SECTION end
-	    ============================================= -->
-
-        <!-- COLUMN SECTION
-        ============================================= -->
-        <!-- <div class="blog_post_slider">
-            <div class="slider-title">
-                <h2>Lifestyle</h2>
-            </div>
-            <div class="post_slide_wrapper flickity-enabled is-draggable">
-                <div class="flickity-viewport" style="touch-action: pan-y;">
-                    <div class="flickity-slider" style="left: 0px; transform: translateX(-375.81%);">
-                        <a href="https://www.fredperry.com/subculture/articles/fred-perry-shirt-care-guide" class="post_slide" data-url="https://www.fredperry.com/subculture/articles/fred-perry-shirt-care-guide" style="position: absolute; left: 464.71%;">
-                            <div class="post_slide--image">
-                                <img src="https://d30l99xc13l2t1.cloudfront.net/media/defacto_blog/cache/500/C/a/1947-Care_Guide_lead.jpg">
-                            </div>
-                            <div class="post_slide--text">
-                                <h3 class="h4">Lifestyle <span class="h3">Fred Perry: Pionir Fashion Tennis</span></h3>
-                                <p>Looking after your clothes is important. Not only does it make your favourite gear last longer, but it’s also better for the environment. Long-lasting clothes = less waste.</p>
-                                <p>Take care of your Fred Perry Shirt with our handy guide and keep it looking sharp for future generations.</p>
-                            </div>
-                        </a>
-                        <a href="https://www.fredperry.com/subculture/articles/charlie-casely-hayford" class="post_slide" style="position: absolute; left: 92.94%;">
-                        <div class="post_slide--image">
-                            <img src="https://d30l99xc13l2t1.cloudfront.net/media/defacto_blog/cache/500/H/E/1976-HEADERIMAGE.jpg">
-                        </div>
-                        <div class="post_slide--text">
-                            <h3 class="h4">Lifestyle <span class="h3">Saat Tenis Menikah dengan Fashion</span></h3>
-                            <p>Charlie Casely-Hayford is one of the brightest design talents around. He has been rightfully hailed as a ‘brilliant Brit’ and as one of the UK’s best dressed men by <em>GQ</em>, not to mention <em>i-D</em> endorsing him among the 100 most important people in fashion. </p>
-                        </div>
-                        </a>
-                        <a href="https://www.fredperry.com/subculture/articles/aden-music-grant-winner" class="post_slide" style="position: absolute; left: 185.88%;">
-                            <div class="post_slide--image">
-                                <img src="https://d30l99xc13l2t1.cloudfront.net/media/defacto_blog/cache/500/A/d/1993-Aden_lead.jpg">
-                            </div>
-                            <div class="post_slide--text">
-                                <h3 class="h4">Lifestyle <span class="h3">Bagaimana Serena Williams memenangkan game fashion</span>
-                                </h3>
-                                <p>Introducing the winner of the Fred Perry x Nicholas Daley music grant, London-based cosmic soul singer aden.</p>
-                            </div>
-                        </a>
-                        <a href="#" class="post_slide" style="position: absolute; left: 278.83%;">
-                            <div class="post_slide--image">
-                                <img src="https://d30l99xc13l2t1.cloudfront.net/media/defacto_blog/cache/500/1/_/2063-1.jpg">
-                            </div>
-                            <div class="post_slide--text">
-                                <h3 class="h4"> AMY WINEHOUSE FOUNDATION <span class="h3">Celebrating 10 Years of Fred Perry x Amy Winehouse Foundation </span>
-                                </h3>
-                                <p>Amy Winehouse fit Fred Perry like rhythm fit the blues. That the collaboration between Winehouse with the timeless fashion house continues to soar in popularity almost a decade since her death renders her as unforgettable an icon of British style as Fred Perry itself.</p>
-                            </div>
-                        </a>
-                        <a href="#" class="post_slide is-selected" data-url="https://www.fredperry.com/subculture/articles/all-our-tomorrows-2020-saturday" style="position: absolute; left: 371.77%;">
-                            <div class="post_slide--image">
-                                <img src="https://d30l99xc13l2t1.cloudfront.net/media/defacto_blog/cache/500/a/o/2049-aot_saturday_1.jpg">
-                            </div>
-                            <div class="post_slide--text">
-                                <h3 class="h4"> SUBCULTURE <span class="h3">All Our Tomorrows - Jockstrap</span></h3>
-                                <p>For 2020 our new music weekender goes online as we transport you – virtually – to our beloved 100 Club. With performances from Bebeluna, LCYTN, Louis Culture and Jockstrap, Al Mills tells us why Britain’s still got it.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <button class="flickity-button flickity-prev-next-button previous" type="button" aria-label="Previous" tabindex="-1">
-                <svg class="flickity-button-icon" viewBox="0 0 100 100">
-                    <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"></path>
-                </svg>
-                </button>
-                <button class="flickity-button flickity-prev-next-button next" type="button" aria-label="Next" tabindex="-1">
-                <svg class="flickity-button-icon" viewBox="0 0 100 100">
-                    <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path>
-                </svg>
-                </button>
-                <ol class="flickity-page-dots">
-                <li class="dot" aria-label="Page dot 1"></li>
-                <li class="dot" aria-label="Page dot 2"></li>
-                <li class="dot" aria-label="Page dot 3"></li>
-                <li class="dot" aria-label="Page dot 4"></li>
-                <li class="dot is-selected" aria-label="Page dot 5" aria-current="step"></li>
-                </ol>
-            </div>
-        </div> -->
-        <!-- LIFESTYLE SECTION END
-        ============================================= -->
-
-        <!-- COLUMN SECTION
-        ============================================= -->
-        <!-- <div class="latest-column-section clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="column-header clearfix">
-                        <div class="col-md-8">
-                            <h2 class="column-title">Column</h2>
-                        </div>
-                        <div class="journal-button col-md-4 text-right vertical-center">
-                            <a href="#index.html" class="button button-normal button-top">View All Column</a>
-                        </div>
-                    </div>
-                    <div class="journal-list">
-                        <div class="journal-space row">
-                            <div class="row col-md-12">
-                                <div class="journal-item col-md-4">
-                                    <a href="#index.html">
-                                        <div class="journal-cover">
-                                            <img srcset="img/column/lifestyle/tenniscore.jpg" />
-                                        </div>
-                                        <div class="journal-content-wrap">
-                                            <div class="journal-content">
-                                                <div class="journal-detail">
-                                                    <div class ="row">
-                                                        <div class ="col-md-6">
-                                                            <p class="journal-column bold">Lifestyle</p>
-                                                        </div>
-                                                        <div class ="col-md-6">
-                                                            <p class="journal-date bold">31/08/2022</p>
-                                                        </div>
+                        <nav>
+                            <div class="nav-height">
+                                <div class="outer">
+                                    <div class="inner">
+                                        <ul data-breakpoint="1025" class="flexnav">
+                                            <li class="link menu-timeline">
+                                                <a href="{{ url('/') }}">
+                                                    <div class="before-span">
+                                                        <span data-hover="Home">Home</span>
                                                     </div>
-                                                </div>
-                                                <div class="journal-article">
-                                                    <h4 class="journal-title-text">Tenniscore Membawa Era Baru Luxury Fashion Untuk Olahraga</h4>
-                                                    <p class="journal-text">Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis atau presentasi visual seperti font, tipografi, dan tata letak. Maksud penggunaan lipsum adalah...</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="journal-item col-md-4">
-                                    <a href="#index.html">
-                                        <div class="journal-cover">
-                                            <img srcset="img/column/lifestyle/tenniscore.jpg" />
-                                        </div>
-                                        <div class="journal-content-wrap">
-                                            <div class="journal-content">
-                                                <div class="journal-detail">
-                                                    <div class ="row">
-                                                        <div class ="col-md-6">
-                                                            <p class="journal-column bold">Lifestyle</p>
-                                                        </div>
-                                                        <div class ="col-md-6">
-                                                            <p class="journal-date bold">31/08/2022</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="journal-article">
-                                                    <h4 class="journal-title-text">Tenniscore Membawa Era Baru Luxury Fashion Untuk Olahraga</h4>
-                                                    <p class="journal-text">Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis atau presentasi visual seperti font, tipografi, dan tata letak. Maksud penggunaan lipsum adalah...</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="journal-item col-md-4">
-                                    <a href="#index.html">
-                                        <div class="journal-cover">
-                                            <img srcset="img/column/lifestyle/tenniscore.jpg" />
-                                        </div>
-                                        <div class="journal-content-wrap">
-                                            <div class="journal-content">
-                                                <div class="journal-detail">
-                                                    <div class ="row">
-                                                        <div class ="col-md-6">
-                                                            <p class="journal-column bold">Lifestyle</p>
-                                                        </div>
-                                                        <div class ="col-md-6">
-                                                            <p class="journal-date bold">31/08/2022</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="journal-article">
-                                                    <h4 class="journal-title-text">Tenniscore Membawa Era Baru Luxury Fashion Untuk Olahraga</h4>
-                                                    <p class="journal-text">Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang ditempatkan untuk mendemostrasikan elemen grafis atau presentasi visual seperti font, tipografi, dan tata letak. Maksud penggunaan lipsum adalah...</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="journal-item col-md-4">
-                                    <div class="journal-space row">
-                                        <a href="#index.html">
-                                            <div class="journal-cover-small">
-                                                <img srcset="img/column/lifestyle/kate-middleton-dress.jpg" />
-                                            </div>
-                                            <div class="journal-content-wrap">
-                                                <div class="journal-content">
-                                                    <div class="journal-detail">
-                                                        <div class ="row">
-                                                            <div class ="col-md-4">
-                                                                <p class="journal-column-small bold">Lifestyle</p>
-                                                            </div>
-                                                            <div class ="col-md-8">
-                                                                <p class="journal-date-small bold">31/08/2022</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="journal-article-small">
-                                                        <h4 class="journal-title-text-small">Gaya Gaun Kate Middleton Untuk Menyanjung Sejarah Wimbledon</h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="journal-space row">
-                                        <a href="#index.html">
-                                            <div class="journal-cover-small">
-                                                <img srcset="img/column/news/nadal.jpg" />
-                                            </div>
-                                            <div class="journal-content-wrap">
-                                                <div class="journal-content">
-                                                    <div class="journal-detail">
-                                                        <div class ="row">
-                                                            <div class ="col-md-4">
-                                                                <p class="journal-column-small bold">News</p>
-                                                            </div>
-                                                            <div class ="col-md-8">
-                                                                <p class="journal-date-small bold">31/08/2022</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="journal-article-small">
-                                                        <h4 class="journal-title-text-small">Rafael Nadal Hari Ini 64-2 di Ronde Pertama Grand Slams</h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <aside id="primary-sidebar" class="sidebar col-md-2">
-                                <div class="blog-sidebar">
-                                    <div id="recent-posts-2" class="widget widget_recent_entries" style="font-family: 'tj-bold';">
-                                        <ul>
-                                            <li>
-                                                <div class="sidebar-detail">
-                                                    <div class ="row">
-                                                        <div class ="col-md-6">
-                                                            <p class="sidebar-column bold">Lifestyle</p>
-                                                        </div>
-                                                        <div class ="col-md-6">
-                                                            <p class="sidebar-date bold">31/08/2022</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class ="row">
-                                                        <div class ="col-md-12">
-                                                            <a class="sidebar-text" href="#index.html">Saat Tenis Menikah dengan Fashion</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <div class="sidebar-detail">
-                                                    <div class ="row">
-                                                        <div class ="col-md-6">
-                                                            <p class="sidebar-column bold">News</p>
-                                                        </div>
-                                                        <div class ="col-md-6">
-                                                            <p class="sidebar-date bold">31/08/2022</p>
-                                                        </div>
+                                            <li class="link menu-timeline">
+                                                <a href="{{ url('works') }}">
+                                                    <div class="before-span">
+                                                        <span data-hover="Works">Works</span>
                                                     </div>
-                                                    <div class ="row">
-                                                        <div class ="col-md-12">
-                                                            <a class="sidebar-text" href="#index.html">Alex De Minaur Tebus Kekalahan Pahit Wimbledon</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                </a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="{{ url('works/xlaxiata') }}">XL AXIATA</a>
+                                                    </li>                                            
+                                                    <li>
+                                                        <a href="{{ url('works/lokalewedding') }}">LOKALE WEDDING</a>
+                                                    </li>                                            
+                                                    <li>
+                                                        <a href="{{ url('works/icedu') }}">ICEDU INDONESIA</a>
+                                                    </li>                                            
+                                                    <li>
+                                                        <a href="{{ url('works/gigs') }}">GIGS INDIE MUSIC</a>
+                                                    </li>
+                                                </ul>
                                             </li>
-                                            <li>
-                                                <div class="sidebar-detail">
-                                                    <div class ="row">
-                                                        <div class ="col-md-6">
-                                                            <p class="sidebar-column bold">News</p>
-                                                        </div>
-                                                        <div class ="col-md-6">
-                                                            <p class="sidebar-date bold">31/08/2022</p>
-                                                        </div>
+                                            <li class="link menu-timeline">
+                                                <a href="{{ url('about') }}">
+                                                    <div class="before-span">
+                                                        <span data-hover="About">About</span>
                                                     </div>
-                                                    <div class ="row">
-                                                        <div class ="col-md-12">
-                                                            <a class="sidebar-text" href="#index.html">Andy Murray Hentikan Laju Emilio Nava</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <div class="sidebar-detail">
-                                                    <div class ="row">
-                                                        <div class ="col-md-6">
-                                                            <p class="sidebar-column bold">Lifestyle</p>
-                                                        </div>
-                                                        <div class ="col-md-6">
-                                                            <p class="sidebar-date bold">31/08/2022</p>
-                                                        </div>
+                                            <li class="link menu-timeline">
+                                                <a href="{{ url('contact') }}">
+                                                    <div class="before-span">
+                                                        <span data-hover="Contact">Contact</span>
                                                     </div>
-                                                    <div class ="row">
-                                                        <div class ="col-md-12">
-                                                            <a class="sidebar-text" href="#index.html">Spotlight: Emma Raducanu di US Open</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="sidebar-detail">
-                                                    <div class ="row">
-                                                        <div class ="col-md-6">
-                                                            <p class="sidebar-column bold">News</p>
-                                                        </div>
-                                                        <div class ="col-md-6">
-                                                            <p class="sidebar-date bold">31/08/2022</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class ="row">
-                                                        <div class ="col-md-12">
-                                                            <a class="sidebar-text" href="#index.html">Cori Gauff Hadang Madison Keys Di Babak Ketiga</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="sidebar-detail">
-                                                    <div class ="row">
-                                                        <div class ="col-md-6">
-                                                            <p class="sidebar-column bold">News</p>
-                                                        </div>
-                                                        <div class ="col-md-6">
-                                                            <p class="sidebar-date bold">31/08/2022</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class ="row">
-                                                        <div class ="col-md-12">
-                                                            <a class="sidebar-text" href="#index.html">Venus Williams Gugur Di Babak Pertama</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                </a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                            </aside>
+                            </div>
+                        </nav>
+                        <div class="button-wrap right menu burger-lines">
+                            <div class="icon-wrap parallax-wrap">
+                                <div class="button-icon parallax-element">
+                                    <div id="burger-wrapper">
+                                        <div id="menu-burger">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-text sticky right">
+                                <span data-hover="Menu">Menu</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- COLUMN SECTION END
-        ============================================= -->
+                </header>
 
-        <!-- FOOTER START
-        ============================================= -->
-        <footer id="footer" class="site-footer wrapper clearfix">
-            <div class="container">
-                <div class="row">
-                    <!-- WIDGET FOOTER START
-                    ============================================= -->
-                    <div class="footer-widget col-md-2"></div>
-                    <div class="footer-widget col-md-8">
-                        <div id="text-5" class="widget-footer widget_text">
-                            <h2 class="footer-title" style="text-align: center">Subscribe Tennis Journal Newsletter</h2>
-                            <div class="row ">
-                                <div class="col-md-12 mobile-none">
-                                    <input class="input left bold" type="email" name="EMAIL" placeholder="Enter your email here...">
-                                    <a href="#index.html" class="button button-subscribe">Subscribe</a>
+                <div id="content-scroll">
+                    <div id="main">
+                        <div id="hero">
+                            <div id="hero-styles">
+                                <div id="hero-caption" class="content-full-width parallax-scroll-caption indent-title">
+                                    <div class="inner">
+                                    <div class="hero-title-wrapper">
+                                        <h1 class="hero-title">
+                                        <span class="color-white" style="opacity: 1; transform: translate(0px, 0px);">Digital</span>
+                                        <span class="color-white" style="opacity: 1; transform: translate(0px, 0px);">Creative</span>
+                                        <span class="color-white" style="opacity: 1; transform: translate(0px, 0px);">Portfolio</span>
+                                        </h1>
+                                    </div>
+                                    <div class="hero-subtitle-wrapper">
+                                        <h5 class="hero-subtitle">
+                                        <span class="color-white" style="opacity: 1; transform: translate(0px, 0px);">Collection of Design Works by Hadyan Yusuf</span>
+                                        </h5>
+                                    </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-12 desktop-none">
-                                    <input class="input left bold" type="email" name="EMAIL" placeholder="Enter your email here...">
-                                    <div class="subscribe-button"></div>
-                                        <a href="#index.html" class="button button-subscribe">Subscribe</a>
+                                <div id="hero-footer">
+                                    <div class="hero-footer-left">
+                                        <div class="button-wrap right scroll-down">
+                                            <div class="icon-wrap parallax-wrap">
+                                                <div class="button-icon parallax-element">
+                                                    <i class="arrow-icon-down"></i>
+                                                </div>
+                                            </div>
+                                            <div class="button-text sticky right">
+                                                <span class="color-white" data-hover="Scroll to Explore">Scroll to Explore</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hero-footer-right">
+                                        <div class="color-white" id="info-text">hadyanyusuf@gmail.com</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="footer-widget col-md-2"></div>
-                    <div class="footer-widget col-md-2"></div>
-                    <!-- WIDGET FOOTER END -->
-                </div>
-            </div>
-        </footer>
-        <!-- FOOTER END
-        ============================================= -->
-    </div>
-    
-@endsection
+
+                        <div id="main-content">
+                            <div id="main-page-content">
+                                <div class="content-row row_padding_top row_padding_bottom_half row_padding_left row_padding_right full light-content hide-mobile">
+                                    <div class="one_third">
+                                        <h5 class="has-mask">SERVICE</h5>
+                                    </div>
+                                    
+                                    <div class="two_third last">
+                                        <h5 class="has-mask">ABOUT</h5>
+                                    </div>
+                                    
+                                    <hr>
+                                    
+                                    <div class="one_third">
+                                        <h5 class="has-mask">VISUAL DESIGN</h5>
+                                        <h5 class="has-mask">USER EXPERIENCE</h5>
+                                        <h5 class="has-mask">WEBSITE DEVELOPER</h5>
+                                    </div>
+                                    
+                                    <div class="two_third last">
+                                        <h4 class="has-mask">A CREATIVE DEVELOPER FOCUS ON BOTH DESIGN AND DEVELOPMENT - ALLOWING ME TO WORK ON PROJECTS FROM CONCEPT UNTIL THE VERY MOMENT WE HIT PUBLISH. UNIQUE LAYOUTS, INTERACTIONS AND GREAT TYPOGRAPHY IS WHAT I FOCUS ON WHEN WORKING ON WEBSITES.</h4>
+                                    </div>
+                                </div>
+
+                                <div class="content-row row_padding_top row_padding_bottom_half row_padding_left row_padding_right full light-content hide-desktop">
+                                    
+                                <div class="one_third">
+                                        <h5 class="has-mask">SERVICE</h5>
+                                    </div>
+                                    
+                                    <div class="one_third">
+                                        <h5 class="has-mask">VISUAL DESIGN</h5>
+                                        <h5 class="has-mask">USER EXPERIENCE</h5>
+                                        <h5 class="has-mask">WEBSITE DEVELOPER</h5>
+                                    </div>
+                                    
+                                    <hr>
+
+                                    <div class="two_third last">
+                                        <h5 class="has-mask">ABOUT</h5>
+                                    </div>
+                                    
+                                    <div class="two_third last">
+                                        <h4 class="has-mask">A CREATIVE DEVELOPER FOCUS ON BOTH DESIGN AND DEVELOPMENT - ALLOWING ME TO WORK ON PROJECTS FROM CONCEPT UNTIL THE VERY MOMENT WE HIT PUBLISH. UNIQUE LAYOUTS, INTERACTIONS AND GREAT TYPOGRAPHY IS WHAT I FOCUS ON WHEN WORKING ON WEBSITES.</h4>
+                                    </div>
+                                </div>
+
+                                <div class="content-row row_padding_top_half row_padding_bottom full light-content" data-bgcolor="#222">
+                                    <div class="content-row row_padding_left row_padding_right full light-content">
+                                        <h5 class="has-mask">WORKS</h5>
+                                    </div>
+
+                                    <div id="itemsWrapperLinks" class="hide-mobile">
+                                        <div id="itemsWrapper" class="webgl-fitthumbs fx-three">
+                                            <div class="portfolio-wrap flex-grid content-full-width fade-scaleout-effect">
+                                                <div class="portfolio">
+                                                    <div class="item wide trigger-item branding design" data-color="#de2606">     
+                                                        <a href="{{ url('works/xlaxiata') }}">
+                                                            <div class="item-parallax">
+                                                                <div class="item-appear">                                		
+                                                                    <div class="item-content"> 
+                                                                        <div class="item-wrap-image">
+                                                                            <img src="img/works/xl-axiata.jpg" class="item-image grid__item-img trigger-item-link" alt="">
+                                                                        </div>
+                                                                        <img class="grid__item-img grid__item-img--large" src="img/works/xl-axiata.jpg" alt="" />
+                                                                    </div>                                             
+                                                                </div>
+                                                                <div class="item-caption-wrapper">
+                                                                    <div class="item-caption">
+                                                                        <div class="item-title"><span>XL AXIATA</span></div>
+                                                                        <div class="item-cat"><span data-hover="View Case">VISUAL DESIGN / USER EXPERIENCE</span></div>                                                    
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    
+                                                    <div class="item trigger-item design photo" data-color="#462883">     
+                                                        <a href="{{ url('works/lokalewedding') }}">
+                                                            <div class="item-parallax">
+                                                                <div class="item-appear">                                    
+                                                                    <div class="item-content">
+                                                                        <div class="item-wrap-image">
+                                                                            <img src="img/works/lokale-wedding.jpg" class="item-image grid__item-img trigger-item-link" alt="">
+                                                                        </div>
+                                                                        <img class="grid__item-img grid__item-img--large" src="images/03hero.jpg" alt="" />
+                                                                    </div>                                            
+                                                                </div>
+                                                                <div class="item-caption-wrapper">
+                                                                    <div class="item-caption">
+                                                                        <div class="item-title"><span>LOKALE WEDDING</span></div>
+                                                                        <div class="item-cat"><span data-hover="View Case">VISUAL DESIGN / WEBSITE DEVELOPER</span></div>                                                    
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    
+                                                    <div class="item wide trigger-item video" data-color="#000">
+                                                        <a href="{{ url('works/icedu') }}">
+                                                            <div class="item-parallax">
+                                                                <div class="item-appear">                                    	
+                                                                    <div class="item-content">
+                                                                        <div class="item-wrap-image">
+                                                                            <img src="img/works/icedu.jpg" class="item-image grid__item-img trigger-item-link" alt="">
+                                                                        </div>
+                                                                        <img class="grid__item-img grid__item-img--large" src="images/04hero.jpg" alt="" />
+                                                                    </div>                                            
+                                                                </div>
+                                                                <div class="item-caption-wrapper">
+                                                                    <div class="item-caption">
+                                                                        <div class="item-title"><span>ICEDU INDONESIA</span></div>
+                                                                        <div class="item-cat"><span data-hover="View Case">VISUAL DESIGN / WEBSITE DEVELOPER</span></div>                                                    
+                                                                    </div>
+                                                                </div>
+                                                            </div>                                   
+                                                        </a>
+                                                    </div>
+                                                    
+                                                    <div class="item wide trigger-item video" data-color="#000">
+                                                        <a href="{{ url('works/gigs') }}">
+                                                            <div class="item-parallax">
+                                                                <div class="item-appear">                                    	
+                                                                    <div class="item-content">
+                                                                        <div class="item-wrap-image">
+                                                                            <img src="img/works/gigs-indie-music.jpg" class="item-image grid__item-img trigger-item-link" alt="">
+                                                                        </div>
+                                                                        <img class="grid__item-img grid__item-img--large" src="images/04hero.jpg" alt="" />
+                                                                    </div>                                            
+                                                                </div>
+                                                                <div class="item-caption-wrapper">
+                                                                    <div class="item-caption">
+                                                                        <div class="item-title"><span>GIGS INDIE MUSIC</span></div>
+                                                                        <div class="item-cat"><span data-hover="View Case">VISUAL DESIGN / WEBSITE DEVELOPER</span></div>                                                    
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>             
+                                            </div>
+                                        </div>                                   
+                                    </div>
+                                    
+                                    <div id="itemsWrapperLinks" class="hide-desktop">
+                                        <div id="itemsWrapper" class="webgl-fitthumbs fx-three">
+                                            <div class="portfolio-wrap flex-grid content-full-width fade-scaleout-effect">
+                                                <div class="portfolio">
+                                                    <div class="item wide trigger-item branding design" data-color="#de2606">     
+                                                        <a href="{{ url('works/xlaxiata') }}">
+                                                            <div class="item-parallax">
+                                                                <div class="item-appear">                                		
+                                                                    <div class="item-content"> 
+                                                                        <div class="item-wrap-image">
+                                                                            <img src="img/works/xl-axiata.jpg" class="item-image grid__item-img trigger-item-link" alt="">
+                                                                        </div>
+                                                                        <img class="grid__item-img grid__item-img--large" src="img/works/xl-axiata.jpg" alt="" />
+                                                                    </div>                                             
+                                                                </div>
+                                                                <div class="item-caption-wrapper">
+                                                                    <div class="item-caption">
+                                                                        <div class="item-title"><span>XL AXIATA</span></div>
+                                                                        <div class="item-cat"><span data-hover="View Case">VISUAL DESIGN / USER EXPERIENCE</span></div>                                                    
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    
+                                                    <div class="item trigger-item design photo" data-color="#462883">     
+                                                        <a href="{{ url('works/lokalewedding') }}">
+                                                            <div class="item-parallax">
+                                                                <div class="item-appear">                                    
+                                                                    <div class="item-content">
+                                                                        <div class="item-wrap-image">
+                                                                            <img src="img/works/lokale-wedding.jpg" class="item-image grid__item-img trigger-item-link" alt="">
+                                                                        </div>
+                                                                        <img class="grid__item-img grid__item-img--large" src="images/03hero.jpg" alt="" />
+                                                                    </div>                                            
+                                                                </div>
+                                                                <div class="item-caption-wrapper">
+                                                                    <div class="item-caption">
+                                                                        <div class="item-title"><span>LOKALE WEDDING</span></div>
+                                                                        <div class="item-cat"><span data-hover="View Case">VISUAL DESIGN / WEBSITE DEVELOPER</span></div>                                                    
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div> 
+                                                <div class="portfolio">
+                                                    <div class="item wide trigger-item video" data-color="#000">
+                                                        <a href="{{ url('works/icedu') }}">
+                                                            <div class="item-parallax">
+                                                                <div class="item-appear">                                    	
+                                                                    <div class="item-content">
+                                                                        <div class="item-wrap-image">
+                                                                            <img src="img/works/icedu.jpg" class="item-image grid__item-img trigger-item-link" alt="">
+                                                                        </div>
+                                                                        <img class="grid__item-img grid__item-img--large" src="images/04hero.jpg" alt="" />
+                                                                    </div>                                            
+                                                                </div>
+                                                                <div class="item-caption-wrapper">
+                                                                    <div class="item-caption">
+                                                                        <div class="item-title"><span>ICEDU INDONESIA</span></div>
+                                                                        <div class="item-cat"><span data-hover="View Case">VISUAL DESIGN / WEBSITE DEVELOPER</span></div>                                                    
+                                                                    </div>
+                                                                </div>
+                                                            </div>                                   
+                                                        </a>
+                                                    </div>
+                                                    
+                                                    <div class="item wide trigger-item video" data-color="#000">
+                                                        <a href="{{ url('works/gigs') }}">
+                                                            <div class="item-parallax">
+                                                                <div class="item-appear">                                    	
+                                                                    <div class="item-content">
+                                                                        <div class="item-wrap-image">
+                                                                            <img src="img/works/gigs-indie-music.jpg" class="item-image grid__item-img trigger-item-link" alt="">
+                                                                        </div>
+                                                                        <img class="grid__item-img grid__item-img--large" src="images/04hero.jpg" alt="" />
+                                                                    </div>                                            
+                                                                </div>
+                                                                <div class="item-caption-wrapper">
+                                                                    <div class="item-caption">
+                                                                        <div class="item-title"><span>GIGS INDIE MUSIC</span></div>
+                                                                        <div class="item-cat"><span data-hover="View Case">VISUAL DESIGN / WEBSITE DEVELOPER</span></div>                                                    
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>             
+                                            </div>
+                                        </div>                                   
+                                    </div>
+
+                                </div>
+
+                                <div class="content-row full light-content" data-bgcolor="#222">
+                                    <div style="background-image: url(img/square.jpg)">
+                                        <ul class="clients-table has-animation no-borders" data-delay="0">
+                                            <li class="link">
+                                                <img src="img/tools/figma.png" alt="tools">
+                                            </li>
+                                            <li class="link">
+                                                <img src="img/tools/photoshop.png" alt="tools">
+                                            </li>
+                                            <li class="link">
+                                                <img src="img/tools/sketch.png" alt="tools">
+                                            </li>
+                                            <li class="link">
+                                                <img src="img/tools/invision.png" alt="tools">
+                                            </li>     
+                                            <li class="link">
+                                                <img src="img/tools/visual-studio.png" alt="tools">
+                                            </li>       
+                                            <li class="hide-desktop link">
+                                                <img class="hide-desktop" src="img/tools/jira.png" alt="tools">
+                                            </li>    
+                                        </ul>
+                                    </div>
+                                </div>
